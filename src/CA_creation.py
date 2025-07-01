@@ -328,13 +328,13 @@ def CA_creation(df, degrees, y):
     plt.tight_layout()
     if len(y) == 3:
         plt.savefig(
-            "/home/alpage_volant/alpage_volant_interaction/save_result/CA/CA.svg",
+            "save_result/CA/CA.svg",
             format="svg",
             dpi=300,
         )
     else:
         plt.savefig(
-            f"/home/alpage_volant/alpage_volant_interaction/save_result/CA/CA_{y[0]}.svg",
+            f"save_result/CA/CA_{y[0]}.svg",
             format="svg",
             dpi=300,
         )

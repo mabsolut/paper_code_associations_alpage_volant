@@ -1,0 +1,16 @@
+collections
+numpy
+pandas
+matplotlib
+scipy
+copy
+itertools
+gaste_test
+statsmodels
+tqdm
+json
+multiprocessing
+networkx
+prince
+random
+collections

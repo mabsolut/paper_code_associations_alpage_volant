@@ -94,7 +94,7 @@ def dominance_shift(df, origin, year):
     # plt.tight_layout(pad=0)
     plt.tight_layout()
     plt.savefig(
-        f"/home/alpage_volant/alpage_volant_interaction/save_result/Dominance/Dominance_shift_{year}.svg",
+        f"save_result/Dominance/Dominance_shift_{year}.svg",
         format="svg",
         dpi=300,
     )

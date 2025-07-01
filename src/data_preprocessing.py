@@ -5,7 +5,7 @@ import pandas as pd
 
 
 def load_and_clean_data(
-    path="/home/alpage_volant/alpage_volant_interaction/data/pinpoints.csv",
+    path="data/pinpoints.csv",
 ):
     """
     Data loading and preprocessing for spatial interaction analysis.

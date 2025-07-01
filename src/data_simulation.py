@@ -63,7 +63,7 @@ def simulate_alpha_error(
         res_list = pool.map(detect_species_associations, all_subdfs)
 
     # Save
-    save_path = f"/home/alpage_volant/alpage_volant_interaction/save_json/json_alpha_error_{treatment}.json"
+    save_path = f"save_json/json_alpha_error_{treatment}.json"
     with open(save_path, "w") as f:
         json.dump(res_list, f)
     return res_list
@@ -157,7 +157,7 @@ def compute_impact_plots_simulation(df, treatment):
         result[n].append(res_dict)
 
     with open(
-        f"/home/alpage_volant/alpage_volant_interaction/save_json/json_impact_plots_simulation_{treatment}.json",
+        f"save_json/json_impact_plots_simulation_{treatment}.json",
         "w",
     ) as f:
         json.dump(result, f)

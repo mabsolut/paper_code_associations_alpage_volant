@@ -92,7 +92,7 @@ def impact_plots_links(treatment, result):
     plt.legend()
     plt.tight_layout()
     plt.savefig(
-        f"/home/alpage_volant/alpage_volant_interaction/save_result/impact_plots_links_{treatment}.svg",
+        f"save_result/impact_plots_links_{treatment}.svg",
         format="svg",
         dpi=300,
     )
@@ -155,7 +155,7 @@ def difference_impact_plots_links(result_alpine, result_warmed):
     plt.legend()
     plt.tight_layout()
     plt.savefig(
-        "/home/alpage_volant/alpage_volant_interaction/save_result/number_links_difference.svg",
+        "save_result/number_links_difference.svg",
         format="svg",
         dpi=300,
     )
@@ -236,7 +236,7 @@ def difference_impact_plots_links_sp(result_alpine, result_warmed, list_sp):
         plt.legend()
         plt.tight_layout()
         plt.savefig(
-            "/home/alpage_volant/alpage_volant_interaction/save_result/relative_number_links_difference_sp/number_link_difference_{sp}.svg",
+            "save_result/relative_number_links_difference_sp/number_link_difference_{sp}.svg",
             format="svg",
             dpi=300,
         )

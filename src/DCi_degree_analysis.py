@@ -65,7 +65,7 @@ def degree_vs_DCi(degrees, DCis, origin):
         ax.legend()
     plt.tight_layout()
     plt.savefig(
-        f"/home/alpage_volant/alpage_volant_interaction/save_result/graphs/abundance_degree_change.svg",
+        f"save_result/graphs/abundance_degree_change.svg",
         format="SVG",
         dpi=300,
     )

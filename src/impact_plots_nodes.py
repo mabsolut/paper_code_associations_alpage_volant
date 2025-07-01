@@ -142,7 +142,7 @@ def impact_plots_nodes(treatment, result):
     plt.legend()
     plt.tight_layout()
     plt.savefig(
-        f"/home/alpage_volant/alpage_volant_interaction/save_result/impact_plots_nodes_{treatment}.svg",
+        f"save_result/impact_plots_nodes_{treatment}.svg",
         format="svg",
         dpi=300,
     )
@@ -220,7 +220,7 @@ def difference_impact_plots_nodes(result_alpine, result_warmed):
     plt.legend()
     plt.tight_layout()
     plt.savefig(
-        "/home/alpage_volant/alpage_volant_interaction/save_result/number_nodes_difference.svg",
+        "save_result/number_nodes_difference.svg",
         format="svg",
         dpi=300,
     )

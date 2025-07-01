@@ -50,7 +50,7 @@ def compute_impact_number_plot(df, treatment):
         result[n].append(res_dict)
 
     with open(
-        f"/home/alpage_volant/alpage_volant_interaction/save_json/json_impact_number_plot_{treatment}.json",
+        f"save_json/json_impact_number_plot_{treatment}.json",
         "w",
     ) as f:
         json.dump(result, f)

@@ -48,16 +48,6 @@ def graph_creation(df, origin):
         for treatment, res_dict in zip(subdf_grouped.indices.keys(), res_list)
     }
 
-    min_pval = min(
-        [
-            min(list(res["over"].values()) + list(res["under"].values()), default=1)
-            for res in (d["res_dict"] for d in result.values())
-        ]
-    )
-
-    def normalize_weight(value, min_value=min_pval, min_weight=0.2, max_weight=1e5):
-        return min_weight + (max_weight - min_weight) * (min_value / value)
-
     # === Create reference layout for alpine and alpine warmed networks ===
     ref_graph = nx.Graph()
     for t in ["G_CP", "L_TP"]:
@@ -106,7 +96,7 @@ def graph_creation(df, origin):
                     (
                         pair.split("|")[0],
                         pair.split("|")[1],
-                        -np.log10(normalize_weight(pval)),
+                        -np.log10(pval*100),
                     )
                     for pair, pval in edges.items()
                 ],
@@ -236,11 +226,6 @@ def graph_creation_common(df, degrees):
             only_w[pair] = res["under"][pair]
 
     # Network building
-    min_pval = min(list(res["under"].values()))
-
-    def normalize_weight(value, min_value=min_pval, min_weight=0.2, max_weight=1e5):
-        return min_weight + (max_weight - min_weight) * (min_value / value)
-
     g = nx.Graph()
 
     color_map = {
@@ -260,7 +245,7 @@ def graph_creation_common(df, degrees):
                 (
                     pair.split("|")[0],
                     pair.split("|")[1],
-                    -np.log10(normalize_weight(pval)),
+                    -np.log10(pval*100),
                 )
                 for pair, pval in group.items()
             ],

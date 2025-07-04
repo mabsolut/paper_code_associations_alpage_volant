@@ -60,7 +60,7 @@ def graph_creation(df, origin):
     degrees, DCis = {}, {}
     print("=== Network summary ===")
     for t in treatments:
-        _, ax = plt.subplots(figsize=(4, 4))
+        _, ax = plt.subplots(figsize=(8, 6))
         subdf_t = subdf[subdf["Site_Treatment"] == t]
         DCi = compute_DCi(subdf_t)
         DCis[t] = DCi
@@ -104,7 +104,7 @@ def graph_creation(df, origin):
                 color=color,
             )
 
-        node_sizes = [DCi.get(node, 0) * 100 for node in g.nodes()]
+        node_sizes = [DCi.get(node, 0) * 300 for node in g.nodes()]
 
         if t == "L_CP":
             node_colors = [origin.get(node) for node in g.nodes()]
@@ -143,10 +143,10 @@ def graph_creation(df, origin):
             reverse=True,
         )
         for k, sp in enumerate(absent_sp):
-            x = -1 + (k % int(len(absent_sp) / 3)) * 0.08
-            y = -1 - 0.08 * (k // int(len(absent_sp) / 3))
+            x = -1 + 0.08 * (k % 20)
+            y = -1 - 0.08 * (k // 20)
             color = origin.get(sp) if t == "L_CP" else "black"
-            ax.scatter(x, y, s=DCi.get(sp) * 100, color=color)
+            ax.scatter(x, y, s=DCi.get(sp) * 300, color=color)
 
         order = len(g.nodes())
         size = len(g.edges())

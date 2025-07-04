@@ -96,7 +96,7 @@ def graph_creation(df, origin):
                     (
                         pair.split("|")[0],
                         pair.split("|")[1],
-                        -np.log10(pval*100),
+                        -np.log10(pval) / 2,
                     )
                     for pair, pval in edges.items()
                 ],
@@ -245,7 +245,7 @@ def graph_creation_common(df, degrees):
                 (
                     pair.split("|")[0],
                     pair.split("|")[1],
-                    -np.log10(pval*100),
+                    -np.log10(pval) / 2,
                 )
                 for pair, pval in group.items()
             ],

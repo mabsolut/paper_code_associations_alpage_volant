@@ -231,7 +231,7 @@ def graph_creation_common(df, degrees):
         "stronger_a": "#BF00FF",
         "stronger_w": "#fbaf00",
         "only_w": "yellow",
-        "only_a": "grey",
+        "only_a": "pink",
     }
 
     for group, color in zip(
@@ -243,7 +243,7 @@ def graph_creation_common(df, degrees):
                 (
                     pair.split("|")[0],
                     pair.split("|")[1],
-                    -np.log10(pval) / 2,
+                    -np.log10(pval) / 5,
                 )
                 for pair, pval in group.items()
             ],
@@ -263,19 +263,29 @@ def graph_creation_common(df, degrees):
             node_colors.append("#fbaf00")
         else:
             node_colors.append("black")
-        node_sizes.append(DCi.get(node) * 100)
+        node_sizes.append(DCi.get(node) * 300)
     pos = nx.spring_layout(g, seed=42, k=0.4, iterations=200)
 
     # Plot of the network
-    _, ax = plt.subplots()
+    _, ax = plt.subplots(figsize=(12, 8))
     nx.draw_networkx_nodes(
         g, pos, node_color=node_colors, node_size=node_sizes, linewidths=1
     )
+    edges_unchanged = [e for e in g.edges(data=True) if e[2]["color"] == "#e6e6e6"]
     nx.draw_networkx_edges(
         g,
         pos,
-        edge_color=nx.get_edge_attributes(g, "color").values(),
-        width=list(nx.get_edge_attributes(g, "pval").values()),
+        edgelist=[(u, v) for u, v, _ in edges_unchanged],
+        edge_color=[d["color"] for _, _, d in edges_unchanged],
+        width=[d["pval"] for _, _, d in edges_unchanged],
+    )
+    edges_other = [e for e in g.edges(data=True) if e[2]["color"] != "#e6e6e6"]
+    nx.draw_networkx_edges(
+        g,
+        pos,
+        edgelist=[(u, v) for u, v, _ in edges_other],
+        edge_color=[d["color"] for _, _, d in edges_other],
+        width=[d["pval"] for _, _, d in edges_other],
     )
     nx.draw_networkx_labels(g, pos, font_size=6, font_color="black", ax=ax)
 
@@ -303,7 +313,7 @@ def graph_creation_common(df, degrees):
             [0], [0], color="#BF00FF", label="Decreased with warming", linestyle="-"
         ),
         Line2D([0], [0], color="yellow", label="Appeared with warming", linestyle="-"),
-        Line2D([0], [0], color="grey", label="Disappeared with warming", linestyle="-"),
+        Line2D([0], [0], color="pink", label="Disappeared with warming", linestyle="-"),
         Line2D(
             [0],
             [0],

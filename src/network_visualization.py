@@ -299,10 +299,10 @@ def graph_creation_common(df, degrees):
     # Legend
     legend_elements = [
         Line2D(
-            [0], [0], color="#BF00FF", label="Increased with warming", linestyle="-"
+            [0], [0], color="#fbaf00", label="Increased with warming", linestyle="-"
         ),
         Line2D(
-            [0], [0], color="#fbaf00", label="Decreased with warming", linestyle="-"
+            [0], [0], color="#BF00FF", label="Decreased with warming", linestyle="-"
         ),
         Line2D([0], [0], color="yellow", label="Appeared with warming", linestyle="-"),
         Line2D([0], [0], color="grey", label="Disappeared with warming", linestyle="-"),

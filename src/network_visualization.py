@@ -122,8 +122,6 @@ def graph_creation(df, origin):
                 for node in g.nodes()
             ]
             pos = pos_G
-            x, y = pos["Pla mari"]
-            pos["Pla mari"] = (x, y - 0.03)
 
         nx.draw_networkx_nodes(g, pos, node_color=node_colors, node_size=node_sizes)
         nx.draw_networkx_edges(

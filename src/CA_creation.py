@@ -7,7 +7,6 @@ import prince
 from data_preprocessing import compute_DCi
 from matplotlib.colors import to_rgba
 from scipy.spatial import ConvexHull
-from scipy.stats import mannwhitneyu
 
 
 def weighted_permutation_test(x, w_x, y, w_y, n_permutations=10000):

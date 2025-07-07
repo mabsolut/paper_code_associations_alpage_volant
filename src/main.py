@@ -12,6 +12,7 @@ from DCi_degree_analysis import degree_vs_DCi
 from dominance_shift import dominance_shift
 from impact_plots_links import (
     difference_impact_plots_links,
+    difference_impact_plots_positive_links,
     difference_impact_plots_links_sp,
     impact_plots_links,
 )

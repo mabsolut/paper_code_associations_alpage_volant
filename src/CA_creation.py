@@ -248,6 +248,12 @@ def CA_creation(df, degrees, y):
     weights_DCi = [list(DCi.values()) for DCi in DCi_vals]
     boxplots_DCi = [replicate_by_weight(x, w) for x, w in zip(coord_DCi, weights_DCi)]
 
+    # === Extract degree values per plot ===
+    coord_degrees = [
+        [coord[sp] for sp in degree if sp in coord] for degree in degrees.values()
+    ]
+    weights_degrees = [list(degree.values()) for degree in degrees.values()]
+
     # === Plot DCi boxplots above CA species projection ===
     labels_box = ["Alpine", "Alpine warmed", "Subalpine"]
     colors_box = ["#52cfebff", "#ff544bff", "#feff63ff"]
@@ -304,18 +310,12 @@ def CA_creation(df, degrees, y):
 
     print("\n--- Degree comparisons ---")
     for i, j in combinations(range(3), 2):
-        _, pval = mannwhitneyu(boxplots_degrees[i], boxplots_degrees[j])
-        # Pseudo-R² (non-weighted)
-        group_means = [np.mean(boxplots_degrees[i]), np.mean(boxplots_degrees[j])]
-        grand_mean = np.mean(boxplots_degrees[i] + boxplots_degrees[j])
-        ss_between = sum(
-            len(g) * (m - grand_mean) ** 2
-            for g, m in zip([boxplots_degrees[i], boxplots_degrees[j]], group_means)
+        pval = weighted_permutation_test(
+            coord_degrees[i], weights_degrees[i], coord_degrees[j], weights_degrees[j]
         )
-        ss_total = sum(
-            (v - grand_mean) ** 2 for v in boxplots_degrees[i] + boxplots_degrees[j]
+        pseudo_r2 = r2_weighted_permutation_test(
+            coord_degrees[i], weights_degrees[i], coord_degrees[j], weights_degrees[j]
         )
-        pseudo_r2 = ss_between / ss_total
         print(
             f"{labels_box[i]} vs {labels_box[j]}: p = {pval:.1e}, pseudo R² = {pseudo_r2:.2f}"
         )
@@ -328,13 +328,13 @@ def CA_creation(df, degrees, y):
     plt.tight_layout()
     if len(y) == 3:
         plt.savefig(
-            "save_result/CA/CA.svg",
+            "/home/alpage_volant/alpage_volant_interaction/save_result/CA/CA.svg",
             format="svg",
             dpi=300,
         )
     else:
         plt.savefig(
-            f"save_result/CA/CA_{y[0]}.svg",
+            f"/home/alpage_volant/alpage_volant_interaction/save_result/CA/CA_{y[0]}.svg",
             format="svg",
             dpi=300,
         )

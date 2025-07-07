@@ -9,7 +9,7 @@ from association_detection import detect_species_associations
 
 
 def simulate_alpha_error(
-    df, treatment, nbplots: int = 30, n_iter: int = 1000, n_cores: int = 12
+    df, treatment, n_iter: int = 1000, n_cores: int = 12
 ):
     """
     Performs simulation-based estimation of alpha error under the null hypothesis,
@@ -29,13 +29,13 @@ def simulate_alpha_error(
         Number of processes to use for parallel computation.
     """
     subdf = df[df["Site_Treatment"] == treatment]
+    subdf = subdf[(subdf["Subplot"] == "B") | (subdf["Subplot"] == "0")]
     grouped = list(subdf.groupby(["Year", "Site_Treatment", "Subplot", "Replicate"]))
     all_subdfs = []
 
     for _ in range(n_iter):
-        random.shuffle(grouped)
         simdf = []
-        for _, subsimdf in grouped[:nbplots]:
+        for _, subsimdf in grouped:
             total_pinpoint = subsimdf["pinpoint"].nunique()
             abundances = dict(Counter(subsimdf["Species"]))
             randomized_rows = []

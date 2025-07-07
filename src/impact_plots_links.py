@@ -161,6 +161,80 @@ def difference_impact_plots_links(result_alpine, result_warmed):
     )
     plt.close()
 
+def difference_impact_plots_positive_links(result_alpine, result_warmed):
+    """
+    Compares the slopes of positive link accumulation between Alpine and Warmed treatments
+    by performing linear regressions without intercept and testing for differences
+    in slope estimates.
+
+    Parameters
+    ----------
+    result_alpine : dict
+        Nested dictionary containing link data for the Alpine treatment.
+    result_warmed : dict
+        Nested dictionary containing link data for the Warmed treatment.
+    """
+    result_alpine = {
+        n: [{**{k: v for k, v in r.items() if k != "under"}, "under": {}} for r in reps]
+        for n, reps in result_alpine.items()
+    }
+    x_a, y_a = extract(result_alpine)
+    slope_a, stderr_a, r2_a = regress(x_a, y_a)
+    t_stat_a = slope_a / stderr_a
+    p_val_a = 2 * stats.t.sf(np.abs(t_stat_a), df=len(x_a) - 1)
+
+    result_warmed = {
+        n: [{**{k: v for k, v in r.items() if k != "under"}, "under": {}} for r in reps]
+        for n, reps in result_warmed.items()
+    }
+    x_w, y_w = extract(result_warmed)
+    x_w, y_w = x_w[x_w <= 30], y_w[x_w <= 30]
+    slope_w, stderr_w, r2_w = regress(x_w, y_w)
+    t_stat_w = slope_w / stderr_w
+    p_val_w = 2 * stats.t.sf(np.abs(t_stat_w), df=len(x_w) - 1)
+
+    slope_diff = slope_w - slope_a
+    stderr_diff = np.sqrt(stderr_a**2 + stderr_w**2)
+    t_diff = slope_diff / stderr_diff
+    p_diff = 2 * stats.t.sf(np.abs(t_diff), df=min(len(x_a), len(x_w)) - 1)
+
+    # Plot
+    plt.figure(figsize=(8, 5))
+    plt.scatter(x_a, y_a, color="blue", alpha=0.3)
+    plt.scatter(x_w, y_w, color="red", alpha=0.3)
+
+    for x, slope, stderr, r2, pval, color, label in [
+        (x_a, slope_a, stderr_a, r2_a, p_val_a, "blue", "Alpine"),
+        (x_w, slope_w, stderr_w, r2_w, p_val_w, "red", "Warmed"),
+    ]:
+        x_vals = np.linspace(1, max(x), 100)
+        y_fit = slope * x_vals
+        y_upper = (slope + 1.96 * stderr) * x_vals
+        y_lower = (slope - 1.96 * stderr) * x_vals
+        plt.plot(
+            x_vals,
+            y_fit,
+            color=color,
+            label=f"{label} fit\nSlope = {slope:.2f}±{stderr:.2f}, R²={r2:.2f}, p={pval:.1e}",
+        )
+        plt.fill_between(x_vals, y_lower, y_upper, color=color, alpha=0.2)
+
+    plt.title(
+        f"Comparison of positive link accumulation slopes\n"
+        f"Δslope = {slope_diff:.2f}±{stderr_diff:.2f}, p = {p_diff:.1e}"
+    )
+    plt.xlabel("Number of used plots")
+    plt.ylabel("Number of positive associations in the network")
+    plt.grid(True)
+    plt.legend()
+    plt.tight_layout()
+    plt.savefig(
+        "/home/alpage_volant/alpage_volant_interaction/save_result/number_positive_links_difference.svg",
+        format="svg",
+        dpi=300,
+    )
+    plt.close()
+
 
 def difference_impact_plots_links_sp(result_alpine, result_warmed, list_sp):
     """

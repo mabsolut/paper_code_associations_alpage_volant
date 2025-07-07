@@ -4,13 +4,14 @@ import multiprocessing as mp
 import matplotlib.pyplot as plt
 import networkx as nx
 import numpy as np
-from association_detection import detect_species_associations
-from data_preprocessing import compute_DCi
 from matplotlib.lines import Line2D
 from scipy.stats import mannwhitneyu
 
+from association_detection import detect_species_associations
+from data_preprocessing import compute_DCi
 
-def graph_creation(df, origin):
+
+def graph_creation(df, origin, jobs=-1):
     """
     Visualisation of species spatial association networks across treatments.
 
@@ -35,7 +36,9 @@ def graph_creation(df, origin):
 
     # === Detect spatial associations ===
     subdf_grouped = subdf.groupby(["Site_Treatment"])
-    with mp.Pool(12) as pool:
+    if jobs == -1:
+        jobs = mp.cpu_count()
+    with mp.Pool(jobs) as pool:
         res_list = pool.map(
             detect_species_associations,
             [group for _, group in subdf_grouped],
@@ -160,7 +163,7 @@ def graph_creation(df, origin):
         degrees[t] = dict(g.degree())
 
         plt.savefig(
-            f"/home/alpage_volant/alpage_volant_interaction/save_result/graphs/graphs_{t}.svg",
+            f"save_result/graphs/graphs_{t}.svg",
             format="SVG",
             dpi=300,
         )
@@ -187,9 +190,7 @@ def graph_creation_common(df, degrees):
     # Compute associations from pooled data
     pooled_df = df[df["Site_Treatment"].isin(["G_CP", "L_TP"])]
     res = detect_species_associations(pooled_df, plot_impact=True)
-    with open(
-        "/home/alpage_volant/alpage_volant_interaction/save_json/json_common.json", "w"
-    ) as f:
+    with open("save_json/json_common.json", "w") as f:
         json.dump(res, f)
 
     # Compare negative association strengths between alpine and alpine warmed communities
@@ -327,7 +328,7 @@ def graph_creation_common(df, degrees):
     ax.axis("off")
     plt.tight_layout()
     plt.savefig(
-        f"/home/alpage_volant/alpage_volant_interaction/save_result/graphs/graphs_common.svg",
+        f"save_result/graphs/graphs_common.svg",
         format="SVG",
         dpi=300,
     )

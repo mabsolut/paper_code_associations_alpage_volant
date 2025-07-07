@@ -4,10 +4,11 @@ import random
 from collections import defaultdict
 
 import pandas as pd
+
 from association_detection import detect_species_associations
 
 
-def compute_impact_number_plot(df, treatment):
+def compute_impact_number_plot(df, treatment, jobs=-1):
     """
     Computes how the number of detected species associations (links) increases
     with the number of observed sampling plots, for a given treatment.
@@ -43,7 +44,9 @@ def compute_impact_number_plot(df, treatment):
             all_subdfs.append(subdf)
             ns.append(n)
 
-    with mp.Pool(12) as pool:
+    if jobs == -1:
+        jobs = mp.cpu_count()
+    with mp.Pool(jobs) as pool:
         res_list = pool.map(detect_species_associations, all_subdfs)
 
     for n, res_dict in zip(ns, res_list):

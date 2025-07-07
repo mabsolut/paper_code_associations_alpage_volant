@@ -5,12 +5,12 @@ from collections import Counter, defaultdict
 
 import numpy as np
 import pandas as pd
+from tqdm import tqdm
+
 from association_detection import detect_species_associations
 
 
-def simulate_alpha_error(
-    df, treatment, nbplots: int = 30, n_iter: int = 1000, n_cores: int = 12
-):
+def simulate_alpha_error(df, treatment, n_iter: int = 100, n_cores: int = 12):
     """
     Performs simulation-based estimation of alpha error under the null hypothesis,
     by randomizing species–pinpoint assignments within plots.
@@ -29,13 +29,13 @@ def simulate_alpha_error(
         Number of processes to use for parallel computation.
     """
     subdf = df[df["Site_Treatment"] == treatment]
+    subdf = subdf[(subdf["Subplot"] == "B") | (subdf["Subplot"] == "0")]
     grouped = list(subdf.groupby(["Year", "Site_Treatment", "Subplot", "Replicate"]))
     all_subdfs = []
 
-    for _ in range(n_iter):
-        random.shuffle(grouped)
+    for _ in tqdm(range(n_iter), desc="Simulating alpha error", total=n_iter):
         simdf = []
-        for _, subsimdf in grouped[:nbplots]:
+        for _, subsimdf in grouped:
             total_pinpoint = subsimdf["pinpoint"].nunique()
             abundances = dict(Counter(subsimdf["Species"]))
             randomized_rows = []
@@ -93,7 +93,7 @@ def report_alpha_error(res_list, treatment):
     )
 
 
-def compute_impact_plots_simulation(df, treatment):
+def compute_impact_plots_simulation(df, treatment, jobs=-1):
     """
     Estimates the accumulation of species associations (links) as a function of the number of sampling plots,
     under a null model where pinpoint-level spatial structure is randomized while maintaining species abundances.
@@ -150,7 +150,9 @@ def compute_impact_plots_simulation(df, treatment):
             all_subdfs.append(pd.concat(simdf, ignore_index=True))
             ns.append(n)
 
-    with mp.Pool(12) as pool:
+    if jobs == -1:
+        jobs = mp.cpu_count()
+    with mp.Pool(jobs) as pool:
         res_list = pool.map(detect_species_associations, all_subdfs)
 
     for n, res_dict in zip(ns, res_list):

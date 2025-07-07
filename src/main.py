@@ -12,13 +12,14 @@ from DCi_degree_analysis import degree_vs_DCi
 from dominance_shift import dominance_shift
 from impact_plots_links import (
     difference_impact_plots_links,
-    difference_impact_plots_positive_links,
     difference_impact_plots_links_sp,
+    difference_impact_plots_positive_links,
     impact_plots_links,
 )
 from impact_plots_nodes import difference_impact_plots_nodes, impact_plots_nodes
 from network_visualization import graph_creation, graph_creation_common
 
+precompute = True
 # === Load and prepare raw data ===
 df = load_and_clean_data()
 # Determine the origin (treatment or elevation) of each species
@@ -37,29 +38,31 @@ dominance_shift(df, origin, 2018)
 degrees, DCis = graph_creation(df, origin)
 
 # === Estimate alpha error rate by simulating randomized data ===
-# Applied separately for each climate treatment (very long step)
-simulate_alpha_alpine = simulate_alpha_error(df, "G_CP")  # Alpine
-simulate_alpha_warmed = simulate_alpha_error(df, "L_TP", n_iter=120)  # Alpine warmed
-simulate_alpha_subalpine = simulate_alpha_error(df, "L_CP")  # Subalpine
-# Long step, you can also use the stored json
-with open(
-    "save_json/json_alpha_error_G_CP.json",
-    "r",
-    encoding="utf-8",
-) as f:
-    simulate_alpha_alpine = json.load(f)
-with open(
-    "save_json/json_alpha_error_L_TP.json",
-    "r",
-    encoding="utf-8",
-) as f:
-    simulate_alpha_warmed = json.load(f)
-with open(
-    "save_json/json_alpha_error_L_CP.json",
-    "r",
-    encoding="utf-8",
-) as f:
-    simulate_alpha_subalpine = json.load(f)
+if not precompute:
+    # Applied separately for each climate treatment (very long step)
+    simulate_alpha_alpine = simulate_alpha_error(df, "G_CP")  # Alpine
+    simulate_alpha_warmed = simulate_alpha_error(df, "L_TP")  # Alpine warmed
+    simulate_alpha_subalpine = simulate_alpha_error(df, "L_CP")  # Subalpine
+else:
+    # Long step, you can also use the stored json
+    with open(
+        "save_json/json_alpha_error_G_CP.json",
+        "r",
+        encoding="utf-8",
+    ) as f:
+        simulate_alpha_alpine = json.load(f)
+    with open(
+        "save_json/json_alpha_error_L_TP.json",
+        "r",
+        encoding="utf-8",
+    ) as f:
+        simulate_alpha_warmed = json.load(f)
+    with open(
+        "save_json/json_alpha_error_L_CP.json",
+        "r",
+        encoding="utf-8",
+    ) as f:
+        simulate_alpha_subalpine = json.load(f)
 report_alpha_error(simulate_alpha_alpine, "Alpine")
 report_alpha_error(simulate_alpha_warmed, "Warmed")
 report_alpha_error(simulate_alpha_subalpine, "Subalpine")
@@ -81,30 +84,31 @@ CA_creation(df, degrees, [2018])
 CA_creation(df, degrees, [2021])
 
 # === Evaluate the effect of sample size (number of plots) on network properties ===
-# For both empirical and simulated data (alpine and alpine warmed)
-impact_plots_alpine = compute_impact_number_plot(df, "G_CP")
-impact_plots_warmed = compute_impact_number_plot(df, "L_TP")
-impact_plots_warmed_simulation = compute_impact_plots_simulation(df, "L_TP")
-
-# Long step, you can also use the stored json
-with open(
-    "save_json/json_impact_number_plot_G_CP.json",
-    "r",
-    encoding="utf-8",
-) as f:
-    impact_plots_alpine = json.load(f)
-with open(
-    "save_json/json_impact_number_plot_L_TP.json",
-    "r",
-    encoding="utf-8",
-) as f:
-    impact_plots_warmed = json.load(f)
-with open(
-    "save_json/json_impact_plots_simulation_L_TP.json",
-    "r",
-    encoding="utf-8",
-) as f:
-    impact_plots_warmed_simulation = json.load(f)
+if not precompute:
+    # For both empirical and simulated data (alpine and alpine warmed)
+    impact_plots_alpine = compute_impact_number_plot(df, "G_CP")
+    impact_plots_warmed = compute_impact_number_plot(df, "L_TP")
+    impact_plots_warmed_simulation = compute_impact_plots_simulation(df, "L_TP")
+else:
+    # Long step, you can also use the stored json
+    with open(
+        "save_json/json_impact_number_plot_G_CP.json",
+        "r",
+        encoding="utf-8",
+    ) as f:
+        impact_plots_alpine = json.load(f)
+    with open(
+        "save_json/json_impact_number_plot_L_TP.json",
+        "r",
+        encoding="utf-8",
+    ) as f:
+        impact_plots_warmed = json.load(f)
+    with open(
+        "save_json/json_impact_plots_simulation_L_TP.json",
+        "r",
+        encoding="utf-8",
+    ) as f:
+        impact_plots_warmed_simulation = json.load(f)
 
 # === Link accumulation analysis ===
 # Plots the number of links vs. number of plots, for both empirical and simulated alpine warmed data

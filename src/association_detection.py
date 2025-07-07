@@ -81,7 +81,9 @@ def detect_species_associations(df, plot_impact: bool = False):
             tau=1,
             threshold_compute_explicite=1e5,
         )
-        for pair in tqdm(min_under)
+        for pair in tqdm(
+            min_under, desc="Combining minimum achievable p-values under (prefiltering)"
+        )
     }
     min_comb_over = {
         pair: get_pval_comb(
@@ -92,7 +94,9 @@ def detect_species_associations(df, plot_impact: bool = False):
             tau=1,
             threshold_compute_explicite=1e5,
         )
-        for pair in tqdm(min_over)
+        for pair in tqdm(
+            min_over, desc="Combining minimum achievable p-values over (prefiltering)"
+        )
     }
 
     # FDR filtering
@@ -108,7 +112,7 @@ def detect_species_associations(df, plot_impact: bool = False):
     # Final p-values combinaison
     comb_under, comb_over = {}, {}
 
-    for pair in tqdm(pvals_under):
+    for pair in tqdm(pvals_under, desc="Combining p-values under"):
         if pair in keep_under:
             comb_under[pair] = get_pval_comb(
                 params_all[pair],
@@ -119,7 +123,7 @@ def detect_species_associations(df, plot_impact: bool = False):
                 threshold_compute_explicite=1e5,
             )
 
-    for pair in tqdm(pvals_over):
+    for pair in tqdm(pvals_over, desc="Combining p-values over"):
         if pair in keep_over:
             comb_over[pair] = get_pval_comb(
                 params_all[pair],

@@ -113,6 +113,9 @@ impact_plots_links("warmed_simulation", impact_plots_warmed_simulation)
 # Statistical comparison of link accumulation slopes between alpine warmed and alpine networks
 difference_impact_plots_links(impact_plots_alpine, impact_plots_warmed)
 
+# Statistical comparison of positive link accumulation slopes between alpine warmed and alpine networks
+difference_impact_plots_positive_links(impact_plots_alpine, impact_plots_warmed)
+
 # Statistical comparison of link accumulation slopes between alpine warmed and alpine networks for all structuring species
 structuring_sp = [
     "Tri alpi",

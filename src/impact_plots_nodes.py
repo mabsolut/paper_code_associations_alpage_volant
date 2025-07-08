@@ -133,11 +133,11 @@ def impact_plots_nodes(treatment, result):
         x, y_pred - y_std, y_pred + y_std, color="grey", alpha=0.2, label="±1σ"
     )
 
-    plt.title(
-        f"{treatment} – Node accumulation\ny = {popt[0]:.0f}·(1 - exp(-{popt[1]:.2f}·x)), R² = {r2:.2f}, p = {p_val:.1e}"
-    )
+    # plt.title(
+    #     f"{treatment} – Node accumulation\ny = {popt[0]:.0f}·(1 - exp(-{popt[1]:.2f}·x)), R² = {r2:.2f}, p = {p_val:.1e}"
+    # )
     plt.xlabel("Number of used plots")
-    plt.ylabel("Number of nodes in the network")
+    plt.ylabel("Network order")
     plt.grid(True)
     plt.legend()
     plt.tight_layout()
@@ -165,6 +165,7 @@ def difference_impact_plots_nodes(result_alpine, result_warmed):
     popt_a, y_pred_a, y_std_a, r2_a, p_val_a = fit_saturating_model(x_a, y_a)
 
     x_w, y_w = extract_xy(result_warmed)
+    x_w, y_w = x_w[x_w <= 30], y_w[x_w <= 30]
     popt_w, y_pred_w, y_std_w, r2_w, p_val_w = fit_saturating_model(x_w, y_w)
 
     # Compare fits
@@ -187,25 +188,25 @@ def difference_impact_plots_nodes(result_alpine, result_warmed):
 
     # Plot
     plt.figure(figsize=(8, 5))
-    plt.scatter(x_a, y_a, alpha=0.2, color="blue", label="Alpine")
-    plt.scatter(x_w, y_w, alpha=0.2, color="red", label="Warmed")
-    plt.plot(x_a, y_pred_a, color="blue", label="Alpine")
-    plt.plot(x_w, y_pred_w, color="red", label="Warmed")
-    plt.fill_between(
+    plt.scatter(x_a, y_a, alpha=0.2, color="blue")
+    plt.scatter(x_w, y_w, alpha=0.2, color="red")
+    plt.plot(
         x_a,
-        y_pred_a - y_std_a,
-        y_pred_a + y_std_a,
-        color="grey",
-        alpha=0.2,
-        label="±1σ",
+        y_pred_a,
+        color="blue",
+        label=f"Alpine fit\ny = {popt_a[0]:.0f}·(1-exp(-{popt_a[1]:.2f}·x)), R²={r2_a:.2f}, p={p_val_a:.1e}",
+    )
+    plt.plot(
+        x_w,
+        y_pred_w,
+        color="red",
+        label=f"Warmed fit\ny = {popt_w[0]:.0f}·(1-exp(-{popt_w[1]:.2f}·x)), R²={r2_w:.2f}, p={p_val_w:.1e}",
     )
     plt.fill_between(
-        x_w,
-        y_pred_w - y_std_w,
-        y_pred_w + y_std_w,
-        color="grey",
-        alpha=0.2,
-        label="±1σ",
+        x_a, y_pred_a - y_std_a, y_pred_a + y_std_a, color="grey", alpha=0.2
+    )
+    plt.fill_between(
+        x_w, y_pred_w - y_std_w, y_pred_w + y_std_w, color="grey", alpha=0.2
     )
 
     plt.title(
@@ -215,7 +216,7 @@ def difference_impact_plots_nodes(result_alpine, result_warmed):
         f"Model difference p = {p_diff:.1e}"
     )
     plt.xlabel("Number of used plots")
-    plt.ylabel("Number of nodes in the network")
+    plt.ylabel("Network order")
     plt.grid(True)
     plt.legend()
     plt.tight_layout()

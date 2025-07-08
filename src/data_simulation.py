@@ -1,16 +1,14 @@
-import json
+mport json
 import multiprocessing as mp
 import random
 from collections import Counter, defaultdict
 
 import numpy as np
 import pandas as pd
-from tqdm import tqdm
-
 from association_detection import detect_species_associations
 
 
-def simulate_alpha_error(df, treatment, n_iter: int = 100, n_cores: int = 12):
+def simulate_alpha_error(df, treatment, n_iter: int = 1000, jobs=-1):
     """
     Performs simulation-based estimation of alpha error under the null hypothesis,
     by randomizing species–pinpoint assignments within plots.
@@ -33,7 +31,7 @@ def simulate_alpha_error(df, treatment, n_iter: int = 100, n_cores: int = 12):
     grouped = list(subdf.groupby(["Year", "Site_Treatment", "Subplot", "Replicate"]))
     all_subdfs = []
 
-    for _ in tqdm(range(n_iter), desc="Simulating alpha error", total=n_iter):
+    for _ in range(n_iter):
         simdf = []
         for _, subsimdf in grouped:
             total_pinpoint = subsimdf["pinpoint"].nunique()
@@ -59,7 +57,9 @@ def simulate_alpha_error(df, treatment, n_iter: int = 100, n_cores: int = 12):
 
         all_subdfs.append(pd.concat(simdf, ignore_index=True))
 
-    with mp.Pool(n_cores) as pool:
+    if jobs == -1:
+        jobs = mp.cpu_count()
+    with mp.Pool(jobs) as pool:
         res_list = pool.map(detect_species_associations, all_subdfs)
 
     # Save
@@ -91,77 +91,3 @@ def report_alpha_error(res_list, treatment):
         ":",
         np.mean([len(res_dict["under"]) for res_dict in res_list]),
     )
-
-
-def compute_impact_plots_simulation(df, treatment, jobs=-1):
-    """
-    Estimates the accumulation of species associations (links) as a function of the number of sampling plots,
-    under a null model where pinpoint-level spatial structure is randomized while maintaining species abundances.
-
-    This simulates the expected increase in co-occurrences due to sample size alone.
-
-    Parameters
-    ----------
-    df : pd.DataFrame
-        Preprocessed input dataset including columns: 'Year', 'Site_Treatment', 'Subplot', 'Replicate',
-        'Species', and 'pinpoint'.
-    treatment : str
-        Name of the treatment to consider (e.g., 'G_CP', 'L_TP').
-
-    Returns
-    -------
-    result : dict
-        Dictionary where keys are the number of used plots, and values are lists of
-        detected associations (output of detect_species_associations).
-    """
-    subdf = df[df["Site_Treatment"] == treatment]
-
-    result = defaultdict(list)
-
-    grouped = list(subdf.groupby(["Year", "Site_Treatment", "Subplot", "Replicate"]))
-    nb_plots = len(grouped)
-    all_subdfs = []
-    ns = []
-
-    for n in range(1, nb_plots + 1):
-        random.shuffle(grouped)
-        for i in range(0, len(grouped) - n + 1, n):
-            selected_groups = [group[1] for group in grouped[i : i + n]]
-            simdf = []
-            for subsimdf in selected_groups:
-                total_pinpoint = subsimdf["pinpoint"].nunique()
-                abondances = dict(Counter(subsimdf["Species"]))
-                randomized_rows = []
-                for specie, abondance in abondances.items():
-                    tirage = np.random.choice(
-                        range(total_pinpoint), abondance, replace=False
-                    )
-                    matching_rows = (
-                        subsimdf[subsimdf["Species"] == specie]
-                        .copy()
-                        .reset_index(drop=True)
-                    )
-                    for i, pinpoint in enumerate(tirage):
-                        row = matching_rows.iloc[i].copy()
-                        row["pinpoint"] = pinpoint
-                        randomized_rows.append(row)
-                randomized_df = pd.DataFrame(randomized_rows)
-                simdf.append(randomized_df)
-            all_subdfs.append(pd.concat(simdf, ignore_index=True))
-            ns.append(n)
-
-    if jobs == -1:
-        jobs = mp.cpu_count()
-    with mp.Pool(jobs) as pool:
-        res_list = pool.map(detect_species_associations, all_subdfs)
-
-    for n, res_dict in zip(ns, res_list):
-        result[n].append(res_dict)
-
-    with open(
-        f"save_json/json_impact_plots_simulation_{treatment}.json",
-        "w",
-    ) as f:
-        json.dump(result, f)
-
-    return result

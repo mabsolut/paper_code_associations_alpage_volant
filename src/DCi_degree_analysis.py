@@ -4,7 +4,7 @@ from scipy import stats
 from scipy.optimize import curve_fit
 
 
-def degree_vs_DCi(degrees, DCis, origin):
+def degree_vs_DCi(degrees, DCis, origin, slope=False):
     """
     Plot relationship between degree and dominance candidate index (DCi)
     across treatments with exponential fit and quantile thresholds.
@@ -64,8 +64,15 @@ def degree_vs_DCi(degrees, DCis, origin):
         ax.grid(True)
         ax.legend()
     plt.tight_layout()
-    plt.savefig(
-        f"save_result/graphs/abundance_degree_change.svg",
-        format="SVG",
-        dpi=300,
-    )
+    if not slope:
+        plt.savefig(
+            f"save_result/graphs/abundance_degree_change.svg",
+            format="SVG",
+            dpi=300,
+        )
+    else:
+        plt.savefig(
+            f"save_result/graphs/abundance_degree_change_slope.svg",
+            format="SVG",
+            dpi=300,
+        )

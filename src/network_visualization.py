@@ -1,14 +1,12 @@
-import json
 import multiprocessing as mp
 
 import matplotlib.pyplot as plt
 import networkx as nx
 import numpy as np
-from matplotlib.lines import Line2D
-from scipy.stats import mannwhitneyu
-
 from association_detection import detect_species_associations
 from data_preprocessing import compute_DCi
+from matplotlib.lines import Line2D
+from scipy.stats import mannwhitneyu
 
 
 def graph_creation(df, origin, jobs=-1):
@@ -190,8 +188,6 @@ def graph_creation_common(df, degrees):
     # Compute associations from pooled data
     pooled_df = df[df["Site_Treatment"].isin(["G_CP", "L_TP"])]
     res = detect_species_associations(pooled_df, plot_impact=True)
-    with open("save_json/json_common.json", "w") as f:
-        json.dump(res, f)
 
     # Compare negative association strengths between alpine and alpine warmed communities
     importance = res["importance_under"]

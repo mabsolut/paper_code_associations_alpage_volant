@@ -5,7 +5,12 @@ from compute_impact_number_plots import (
     compute_impact_number_plot,
     compute_impact_number_plot_allcomb,
 )
-from data_preprocessing import compute_DCi, compute_origin, load_and_clean_data
+from data_preprocessing import (
+    compute_DCi,
+    compute_origin,
+    impact_abund_freq_DCi,
+    load_and_clean_data,
+)
 from data_simulation import report_alpha_error, simulate_alpha_error
 from DCi_degree_analysis import degree_vs_DCi
 from dominance_shift import dominance_shift
@@ -28,6 +33,10 @@ origin = compute_origin(df)
 # === Temporal analysis of dominance structure shifts ===
 # Figure 2: After five years of warming
 dominance_shift(df, origin, 2021)
+
+# Impact of the abundance and the frequence on the DCi
+impact_abund_freq_DCi(df, "L_TP")
+impact_abund_freq_DCi(df, "G_CP")
 
 # Supplemental figures 1 and 2: After 6 months and 2 years of warming, respectively
 dominance_shift(df, origin, 2017)

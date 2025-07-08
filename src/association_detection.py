@@ -8,7 +8,9 @@ from statsmodels.stats.multitest import multipletests
 from tqdm import tqdm
 
 
-def detect_species_associations(df, plot_impact: bool = False):
+def detect_species_associations(
+    df, plot_impact: bool = False, plot_effect: bool = False
+):
     """
     Detect significant species associations using hypergeometric tests
     by combining replicate-level results with GASTE and controlling FDR.
@@ -155,4 +157,52 @@ def detect_species_associations(df, plot_impact: bool = False):
                 importance_under[pair][plot] = new_pval - pval
         result["importance_under"] = importance_under
 
+    if plot_effect == True:
+        effect_under = defaultdict(dict)
+        for pair in fdr_select(comb_under).keys():
+            pval = comb_under[pair]
+            for plot in pvals_under[pair].keys():
+                new_dict = copy.deepcopy(pvals_under[pair])
+                del new_dict[plot]
+                new_pval = get_pval_comb(
+                    params_all[pair],
+                    list(new_dict.values()),
+                    "under",
+                    moment=2,
+                    tau=1,
+                    threshold_compute_explicite=1e5,
+                )
+                new_comb_under = copy.deepcopy(comb_under)
+                new_comb_under[pair] = new_pval
+                effect_under[pair][plot] = (
+                    1
+                    if len(fdr_select(new_comb_under)) < len(fdr_select(comb_under))
+                    else 0
+                )
+        result["effect_under"] = effect_under
+
+        effect_over = defaultdict(dict)
+        for pair in fdr_select(comb_over).keys():
+            for plot in pvals_over[pair].keys():
+                new_dict = copy.deepcopy(pvals_over[pair])
+                del new_dict[plot]
+                new_pval = get_pval_comb(
+                    params_all[pair],
+                    list(new_dict.values()),
+                    "over",
+                    moment=2,
+                    tau=1,
+                    threshold_compute_explicite=1e5,
+                )
+                new_comb_over = copy.deepcopy(comb_over)
+                new_comb_over[pair] = new_pval
+                new_keep_over = fdr_select(new_comb_over)
+                effect_over[pair][plot] = (
+                    1
+                    if len(fdr_select(new_comb_over)) < len(fdr_select(comb_over))
+                    else 0
+                )
+        result["effect_over"] = effect_over
+
     return result
+

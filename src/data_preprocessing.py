@@ -17,9 +17,11 @@ def load_and_clean_data(
     across quadrats.
     """
     df = pd.read_csv(path)
+    # Remove errors in the data
     df = df.drop(df.index[[5470, 30001]])
     df = df[df["Species"] != "aaa +++ En attente de détermination"]
     df.drop_duplicates(inplace=True)
+    # Remove individuals only identify at the gender level
     df = df[df["Species"].str.split().str.len() >= 2]
     df["Species"] = df["Species"].apply(
         lambda x: f"{x.split()[0][:3]} {x.split()[1][:4]}"
@@ -79,3 +81,4 @@ def compute_DCi(df_group):
         freq = sum(sp in rep_df["Species"].values for _, rep_df in replicates)
         DCi[sp] = (np.mean(values) + freq / n_reps) / 2
     return DCi
+

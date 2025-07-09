@@ -35,8 +35,8 @@ origin = compute_origin(df)
 dominance_shift(df, origin, 2021)
 
 # Impact of the abundance and the frequence on the DCi
-impact_abund_freq_DCi(df, "L_TP")
-impact_abund_freq_DCi(df, "G_CP")
+impact_abund_freq_DCi(df, "L_TP", origin)
+impact_abund_freq_DCi(df, "G_CP", origin)
 
 # Supplemental figures 1 and 2: After 6 months and 2 years of warming, respectively
 dominance_shift(df, origin, 2017)

@@ -56,19 +56,19 @@ if not precompute:
 else:
     # Long step, you can also use the stored json
     with open(
-        "save_json/json_alpha_error_G_CP.json",
+        "save_json/json_alpha_error_G_CP_new.json",
         "r",
         encoding="utf-8",
     ) as f:
         simulate_alpha_alpine = json.load(f)
     with open(
-        "save_json/json_alpha_error_L_TP.json",
+        "save_json/json_alpha_error_L_TP_new.json",
         "r",
         encoding="utf-8",
     ) as f:
         simulate_alpha_warmed = json.load(f)
     with open(
-        "save_json/json_alpha_error_L_CP.json",
+        "save_json/json_alpha_error_L_CP_new.json",
         "r",
         encoding="utf-8",
     ) as f:

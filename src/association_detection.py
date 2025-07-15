@@ -2,6 +2,7 @@ import copy
 from collections import defaultdict
 from itertools import combinations
 
+import numpy as np
 from gaste_test import get_pval_comb
 from scipy.stats import hypergeom
 from statsmodels.stats.multitest import multipletests
@@ -9,7 +10,7 @@ from tqdm import tqdm
 
 
 def detect_species_associations(
-    df, plot_impact: bool = False, plot_effect: bool = False
+    df, plot_impact: bool = False, plot_effect: bool = False, random_state: bool = False
 ):
     """
     Detect significant species associations using hypergeometric tests
@@ -35,6 +36,11 @@ def detect_species_associations(
     params_all = defaultdict(list)
     min_under, min_over = defaultdict(list), defaultdict(list)
     params_min_under, params_min_over = defaultdict(list), defaultdict(list)
+    threshold_compute_explicite = 1e5
+    disable_tqdm = False
+    if random_state:
+        np.random.seed()
+        disable_tqdm = True
 
     for plot, subdf in df.groupby(["Year", "Site_Treatment", "Subplot", "Replicate"]):
         plot = f"{int(plot[0])}_{plot[1]}_{plot[2]}_{int(plot[3])}"
@@ -59,6 +65,11 @@ def detect_species_associations(
             sp1, sp2 = pair.split("|")
             n1, n2 = freq[sp1], freq[sp2]
             dist = hypergeom(N, n1, n2)
+            if random_state == True:
+                k = len(
+                    set(np.random.choice(range(N), n1, replace=False))
+                    & set(np.random.choice(range(N), n2, replace=False))
+                )
 
             # observed p-values
             pvals_under[pair][plot] = dist.cdf(k)
@@ -81,10 +92,12 @@ def detect_species_associations(
             "under",
             moment=2,
             tau=1,
-            threshold_compute_explicite=1e5,
+            threshold_compute_explicite=threshold_compute_explicite,
         )
         for pair in tqdm(
-            min_under, desc="Combining minimum achievable p-values under (prefiltering)"
+            min_under,
+            desc="Combining minimum achievable p-values under (prefiltering)",
+            disable=disable_tqdm,
         )
     }
     min_comb_over = {
@@ -94,10 +107,12 @@ def detect_species_associations(
             "over",
             moment=2,
             tau=1,
-            threshold_compute_explicite=1e5,
+            threshold_compute_explicite=threshold_compute_explicite,
         )
         for pair in tqdm(
-            min_over, desc="Combining minimum achievable p-values over (prefiltering)"
+            min_over,
+            desc="Combining minimum achievable p-values over (prefiltering)",
+            disable=disable_tqdm,
         )
     }
 
@@ -114,30 +129,53 @@ def detect_species_associations(
     # Final p-values combinaison
     comb_under, comb_over = {}, {}
 
-    for pair in tqdm(pvals_under, desc="Combining p-values under"):
-        if pair in keep_under:
-            comb_under[pair] = get_pval_comb(
-                params_all[pair],
-                list(pvals_under[pair].values()),
-                "under",
-                moment=2,
-                tau=1,
-                threshold_compute_explicite=1e5,
-            )
+    for pair in tqdm(
+        keep_under.keys(), desc="Combining p-values under", disable=disable_tqdm
+    ):
+        comb_under[pair] = get_pval_comb(
+            params_all[pair],
+            list(pvals_under[pair].values()),
+            "under",
+            moment=2,
+            tau=1,
+            threshold_compute_explicite=threshold_compute_explicite,
+        )
 
-    for pair in tqdm(pvals_over, desc="Combining p-values over"):
-        if pair in keep_over:
-            comb_over[pair] = get_pval_comb(
-                params_all[pair],
-                list(pvals_over[pair].values()),
-                "over",
-                moment=2,
-                tau=1,
-                threshold_compute_explicite=1e5,
-            )
+    for pair in tqdm(
+        keep_over.keys(), desc="Combining p-values over", disable=disable_tqdm
+    ):
+        comb_over[pair] = get_pval_comb(
+            params_all[pair],
+            list(pvals_over[pair].values()),
+            "over",
+            moment=2,
+            tau=1,
+            threshold_compute_explicite=threshold_compute_explicite,
+        )
 
     # FDR
-    result = {"under": fdr_select(comb_under), "over": fdr_select(comb_over)}
+    if random_state:
+        final_under = fdr_select(comb_under)
+        final_over = fdr_select(comb_over)
+        d_under = dict()
+        for pair, adjusted_fdr_bh_pval in final_under.items():
+            d_under[pair] = {
+                "comb_pval": comb_under[pair],
+                "adjusted_fdr_bh_pval": adjusted_fdr_bh_pval,
+                "params": params_all[pair],
+                "pvals": pvals_under[pair],
+            }
+        d_over = dict()
+        for pair, adjusted_fdr_bh_pval in final_over.items():
+            d_over[pair] = {
+                "comb_pval": comb_over[pair],
+                "adjusted_fdr_bh_pval": adjusted_fdr_bh_pval,
+                "params": params_all[pair],
+                "pvals": pvals_over[pair],
+            }
+        result = {"under": d_under, "over": d_over}
+    else:
+        result = {"under": fdr_select(comb_under), "over": fdr_select(comb_over)}
 
     if plot_impact == True:
         importance_under = defaultdict(dict)
@@ -152,7 +190,7 @@ def detect_species_associations(
                     "under",
                     moment=2,
                     tau=1,
-                    threshold_compute_explicite=1e5,
+                    threshold_compute_explicite=threshold_compute_explicite,
                 )
                 importance_under[pair][plot] = new_pval - pval
         result["importance_under"] = importance_under
@@ -170,7 +208,7 @@ def detect_species_associations(
                     "under",
                     moment=2,
                     tau=1,
-                    threshold_compute_explicite=1e5,
+                    threshold_compute_explicite=threshold_compute_explicite,
                 )
                 new_comb_under = copy.deepcopy(comb_under)
                 new_comb_under[pair] = new_pval
@@ -192,7 +230,7 @@ def detect_species_associations(
                     "over",
                     moment=2,
                     tau=1,
-                    threshold_compute_explicite=1e5,
+                    threshold_compute_explicite=threshold_compute_explicite,
                 )
                 new_comb_over = copy.deepcopy(comb_over)
                 new_comb_over[pair] = new_pval
@@ -205,4 +243,3 @@ def detect_species_associations(
         result["effect_over"] = effect_over
 
     return result
-

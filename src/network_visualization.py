@@ -3,10 +3,11 @@ import multiprocessing as mp
 import matplotlib.pyplot as plt
 import networkx as nx
 import numpy as np
-from association_detection import detect_species_associations
-from data_preprocessing import compute_DCi
 from matplotlib.lines import Line2D
 from scipy.stats import mannwhitneyu
+
+from association_detection import detect_species_associations
+from data_preprocessing import compute_DCi
 
 
 def graph_creation(df, origin, jobs=-1):

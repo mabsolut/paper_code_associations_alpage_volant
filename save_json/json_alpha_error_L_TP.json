@@ -1,1 +1,5033 @@
-[{"under": {"Car semp|Tri alpi": 0.0020063762385974524, "Pla mari|Tri alpi": 0.04985383649737752}, "over": {}}, {"under": {"Car semp|Fes hall": 0.015879360777359432, "Poa alpi|Tri alpi": 0.04562981656032931, "Pla alpi|Vio calc": 0.023538941186265264}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Pla alpi": 0.04717314036334282}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Fes nigr|Pot aure": 0.014908235492782996}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Fes hall|Pot aure": 0.029250635120777413}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {"Bis vivi|Sco pyre": 0.00657128221086602}}, {"under": {}, "over": {}}, {"under": {"Alo gera|Tri alpi": 0.042718896782607915, "Pot aure|Tri alpi": 0.048865824953313056}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Tri alpi": 0.01707960874303886}, "over": {}}, {"under": {"Alo gera|Hel vers": 0.04331993387592912}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Pot aure": 0.0234984848884786}, "over": {}}, {"under": {"Pot aure|Tri alpi": 0.04403056387274237, "Fes nigr|Lot corn": 0.04403056387274237}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Pot aure": 0.04816513759671636, "Pot aure|Tri alpi": 0.002128307212254388, "Bis vivi|Pot aure": 0.04284413598846965, "Fes nigr|Pla alpi": 0.04816513759671636}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Pot aure|Tri alpi": 0.004445656095471075}, "over": {}}, {"under": {"Pot aure|Tri alpi": 0.03281170713101562}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Pla mari|Pot aure": 0.04519236426485042, "Geu mont|Poa alpi": 0.04519236426485042, "Car acau|Fes nigr": 0.014691263422455332, "Fes nigr|Lot corn": 0.03801744821526293}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Alo gera|Tri alpi": 0.006346250555886728}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Pla alpi|Pot aure": 0.0015299193017930717}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Pot aure|Tri alpi": 0.0035827069478660345}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Alo gera|Pot aure": 0.016002577307473242, "Nar stri|Vio calc": 0.016002577307473242}, "over": {}}, {"under": {"Car semp|Poa alpi": 0.032406499459053516, "Car semp|Tri alpi": 0.032406499459053516, "Pot aure|Tri alpi": 0.032406499459053516}, "over": {}}, {"under": {"Pot aure|Sco pyre": 0.0063843911820333065}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Pot aure|Tri alpi": 0.0012393190482377383}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Poa alpi": 0.03879805647737832, "Pot aure|Tri alpi": 0.002431001764329638}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Pla mari|Poa alpi": 0.017110122741045796}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Alo gera|Tri alpi": 0.007663391603914477}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Poa alpi|Pot aure": 0.03616823369578561}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Pot aure": 0.005565043556508136}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Hel vers": 0.02395898943892534}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Fes nigr|Tri alpi": 0.03617616656117793}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {"Car acau|Sco pyre": 0.014521724028693037}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Tri alpi": 0.04183104958777244, "Pla mari|Pot aure": 0.044231107360694764}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Fes nigr|Pla alpi": 0.010261410625156163}, "over": {}}, {"under": {"Pot aure|Tri alpi": 0.038585451418227786, "Ave flex|Poa alpi": 0.043475987985595814}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Tri alpi": 0.012387015580484006, "Hel vers|Pot aure": 0.012387015580484006, "Poa alpi|Tri alpi": 0.017323725324449212, "Fes nigr|Tri alpi": 0.014688768568711132}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Poa alpi": 0.045691759300504835, "Car semp|Tri alpi": 0.010558396675908778, "Fes hall|Tri alpi": 0.010558396675908778, "Pot aure|Tri alpi": 0.010558396675908778}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Hel vers|Pot aure": 0.007475566280016778, "Poa alpi|Tri alpi": 0.012752549058165953}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Tri alpi": 0.046361009669275394}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Pot aure": 0.01878956758785256}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Pla mari|Pot aure": 0.04018736551800609}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Nar stri|Poa alpi": 0.03527886208399294}, "over": {}}, {"under": {"Poa alpi|Pot aure": 0.038904807924379343}, "over": {}}, {"under": {"Car semp|Tri alpi": 0.015955886802339704}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Tri alpi": 0.0034477767457991885, "Pot aure|Tri alpi": 0.041157382087782385, "Agr capi|Fes nigr": 0.005377626577106612, "Bri medi|Fes nigr": 0.044009476085267854}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Alo gera|Pot aure": 0.04580275695363083}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Leo hisp|Pot aure": 0.03868263100487158}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Hel vers": 0.03714929640309201, "Pot aure|Tri alpi": 0.03714929640309201}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Pot aure": 0.048414121153503985, "Car semp|Tri alpi": 0.048414121153503985, "Tri alpi|Vio calc": 0.048414121153503985}, "over": {}}, {"under": {"Alo gera|Car semp": 0.03663769192804927, "Car semp|Pla mari": 0.0005684839025696517, "Cam rotu|Poa alpi": 0.03663769192804927, "Fes nigr|Nar stri": 0.0476780527678565, "Fes nigr|Tri alpi": 0.0013185795227046262, "Agr capi|Tri alpi": 0.03537929982722835}, "over": {"Fes hall|Pat pani": 0.043954502488114985}}, {"under": {"Car semp|Tri alpi": 0.016871237820328552, "Meu atha|Tri alpi": 0.03565450285740167}, "over": {}}, {"under": {"Alo gera|Tri alpi": 0.022484678400596803, "Hel vers|Pla mari": 0.024302535127263086, "Agr capi|Tri alpi": 0.042074510708612234}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Tri alpi": 0.0002700214273883492}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Pot aure|Tri alpi": 0.040329824952297}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Tri alpi": 0.01335907369280897, "Poa alpi|Pot aure": 0.04112066484606379, "Car semp|Pla alpi": 0.04112066484606379}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Pot aure": 0.041322269880167656}, "over": {}}, {"under": {"Car semp|Tri alpi": 0.027364880566433453, "Poa alpi|Tri alpi": 0.04602772889668103, "Pot aure|Tri alpi": 0.027364880566433453}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Tri alpi": 0.03568963355712709}, "over": {}}, {"under": {"Alo gera|Fes nigr": 0.02527164314546385}, "over": {}}, {"under": {"Car semp|Pot aure": 0.009742576517537292}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Fes nigr|Pla alpi": 0.0007451924431501772}, "over": {}}, {"under": {"Alo gera|Pla alpi": 0.041684532932026855}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Pot aure": 0.047036196792627674, "Car semp|Tri alpi": 0.025696443828782525, "Fes nigr|Meu atha": 0.022038327353609635, "Meu atha|Nar stri": 0.022038327353609635, "Car acau|Nar stri": 0.025696443828782525, "Pot aure|Thy pule": 0.047036196792627674}, "over": {}}, {"under": {"Nar stri|Pla alpi": 0.032248623131444054}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Alo gera|Pot aure": 0.041399583574609, "Car semp|Pot aure": 0.041399583574609, "Fes hall|Pot aure": 0.030278375922142768}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Fes hall|Nar stri": 0.04082723501879892, "Fes hall|Tri alpi": 0.04082723501879892}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Pot aure": 0.0001759428404840494, "Fes hall|Pot aure": 0.016707187463929976}, "over": {}}, {"under": {"Ave flex|Car semp": 0.0028556009704220663}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Pot aure": 0.02245286863734017, "Fes nigr|Poa alpi": 0.04126983804092272, "Nar stri|Pla alpi": 0.002829846674995687}, "over": {}}, {"under": {"Pot cran|Tri alpi": 0.0004367808366483346}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Fes nigr": 0.033802238640921155}, "over": {}}, {"under": {"Car semp|Fes nigr": 0.008419253909036691}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Pot aure|Tri alpi": 0.006718168473246765, "Pla alpi|Tri alpi": 0.028266143760875044}, "over": {}}, {"under": {"Alo gera|Tri alpi": 0.01880481968771573, "Pla alpi|Tri alpi": 0.03894864354196671}, "over": {}}, {"under": {"Alo gera|Pot aure": 0.04588230056298712, "Car semp|Vio calc": 0.04588230056298712, "Pot cran|Tri alpi": 0.04588230056298712}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Hel numm": 0.04269301392835353}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Pla alpi|Tri alpi": 0.004708263627319219}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Pot aure": 0.029717049844696853}, "over": {}}, {"under": {"Pot aure|Tri alpi": 0.014214801962088571, "Ave flex|Poa alpi": 0.03258965144942281}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Pot aure": 0.007821269253785488, "Nar stri|Tri alpi": 0.03491514494926148}, "over": {}}, {"under": {}, "over": {"Agr rupe|Poa alpi": 0.0013399897226496111}}, {"under": {"Car semp|Fes nigr": 0.0032023776146001886, "Car acau|Car semp": 0.03505983065969317}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Pot aure|Tri alpi": 0.0003438234185432216}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Pot aure": 0.04025066462822519, "Fes nigr|Nar stri": 0.04025066462822519}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Alo gera|Pot aure": 0.04914046936031838, "Car semp|Poa alpi": 0.04914046936031838, "Poa alpi|Sco pyre": 0.04914046936031838, "Fes nigr|Pot aure": 0.04914046936031838}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Pot aure": 0.021355169217780468, "Pot aure|Tri alpi": 0.005528204003531129, "Poa alpi|Pot cran": 0.01688237606127559, "Alo gera|Pla alpi": 0.021355169217780468}, "over": {}}, {"under": {"Car semp|Fes nigr": 0.017032525930488897}, "over": {}}, {"under": {"Car semp|Pot aure": 0.004548868705134665, "Hel vers|Pla mari": 0.0028773603272216593}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Pot aure|Tri alpi": 0.007195565837739012}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Nar stri|Tri alpi": 0.04911847288796259, "Car semp|Fes laev": 0.04911847288796259}, "over": {}}, {"under": {"Car semp|Tri alpi": 0.006677688025967203}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Pot aure": 0.04617779707122521}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Tri alpi": 0.024765785120996982, "Pla mari|Tri alpi": 0.0015074451149996284}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Pla mari": 0.039494778378091615}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Hel vers|Pot aure": 0.04046762043301482, "Poa alpi|Pot aure": 0.04046762043301482}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Tri alpi": 0.0005916278513704474}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Pla mari|Pot aure": 0.01017868945457258, "Cam rotu|Pot aure": 0.020176143546065648, "Car semp|Fes nigr": 0.0045459825248756755}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Fes hall|Fes nigr": 0.04653346049559662}, "over": {}}, {"under": {"Car semp|Fes nigr": 0.04686662828339159, "Fes nigr|Nar stri": 0.04686662828339159, "Fes nigr|Tri alpi": 0.04686662828339159}, "over": {}}, {"under": {"Poa alpi|Tri alpi": 0.0334864861234021, "Car acau|Car semp": 0.0334864861234021}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Poa alpi|Tri alpi": 0.023749263208189392}, "over": {}}, {"under": {"Pot aure|Tri alpi": 0.008563876010628982, "Fes laev|Fes nigr": 0.019549293376344423}, "over": {}}, {"under": {"Car semp|Tri alpi": 0.025137386100608047, "Hel vers|Tri alpi": 0.025137386100608047, "Fes nigr|Tri alpi": 0.025137386100608047}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Fes nigr|Pot aure": 0.033122231886243074}, "over": {}}, {"under": {"Car semp|Tri alpi": 0.030676873306268917}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Cam rotu|Pot aure": 0.019256368871197554, "Fes nigr|Tri alpi": 0.029318608256583282}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Pla mari|Pot aure": 0.03577161738383745}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Poa alpi|Pot cran": 0.03527106641034616}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Nar stri|Vio calc": 0.012680599574901311}, "over": {}}, {"under": {"Car semp|Fes nigr": 0.010855260413523863}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Nar stri|Vio calc": 0.003436759051955961}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Fes hall|Pla mari": 0.021406627140460405}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Tri alpi": 0.001629594947633258, "Pot aure|Tri alpi": 0.02496988799371684, "Agr capi|Car semp": 0.02496988799371684}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Pot aure": 0.039863561157956265}, "over": {}}, {"under": {"Hel vers|Pot aure": 0.04628881979174005, "Pot aure|Tri alpi": 0.026424632854446222}, "over": {}}, {"under": {"Car semp|Tri alpi": 0.004731059716573982}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {"Ant odor|Sco pyre": 0.0046217475794940585}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Alo gera|Tri alpi": 0.044738236409487396, "Nar stri|Tri alpi": 0.044738236409487396, "Cam rotu|Car semp": 0.044738236409487396, "Fes nigr|Tri alpi": 0.044738236409487396}, "over": {}}, {"under": {"Car semp|Tri alpi": 0.022057097923465822}, "over": {}}, {"under": {"Car semp|Hel vers": 0.04075941419044473}, "over": {}}, {"under": {"Pot aure|Tri alpi": 0.001698356393918424, "Fes nigr|Pot aure": 0.0024798988831310218}, "over": {}}, {"under": {"Car semp|Tri alpi": 0.030653219220166384}, "over": {}}, {"under": {"Car semp|Hel vers": 0.016306410357420656, "Pla mari|Tri alpi": 0.016306410357420656}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Hel vers|Pot aure": 0.026872602125096075}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Hel vers": 0.025978251012651846, "Poa alpi|Tri alpi": 0.025978251012651846}, "over": {}}, {"under": {"Hel vers|Pot aure": 0.028584794055517178}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Fes nigr|Tri alpi": 0.03584910916612473}, "over": {}}, {"under": {"Car semp|Tri alpi": 0.005737829125533601, "Nar stri|Tri alpi": 0.04516273825985777}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Tri alpi": 0.0001350919193637886, "Pot aure|Tri alpi": 0.011445002198833086}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Poa alpi|Tri alpi": 0.017494018051713092, "Fes nigr|Nar stri": 0.002801540211365957, "Car semp|Pla alpi": 0.0010043273114848695, "Agr capi|Nar stri": 0.04248755914382367}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Alo gera|Car semp": 0.04644103351454013, "Meu atha|Pla alpi": 0.021552910623825278}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Tri alpi": 0.043295104762716405}, "over": {}}, {"under": {"Car semp|Pot aure": 0.02974375140685087, "Nar stri|Tri alpi": 0.02974375140685087, "Car semp|Fes nigr": 0.02974375140685087}, "over": {}}, {"under": {"Nar stri|Pla mari": 0.022316726671953623, "Nar stri|Tri alpi": 0.022316726671953623}, "over": {}}, {"under": {"Pot aure|Tri alpi": 0.04793706262166319}, "over": {}}, {"under": {"Car semp|Pla mari": 0.0471307885954726, "Fes hall|Tri alpi": 0.013195686852702223}, "over": {}}, {"under": {"Car semp|Tri alpi": 0.012077342863719734}, "over": {}}, {"under": {"Fes nigr|Meu atha": 0.001397428438831362}, "over": {}}, {"under": {"Car semp|Nar stri": 0.00864046401856475}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Poa alpi|Pot cran": 0.03035348846102556, "Meu atha|Nar stri": 0.03035348846102556}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Pot aure|Vio calc": 8.743777506472026e-05}, "over": {}}, {"under": {"Car semp|Pot aure": 0.03451996482659438}, "over": {"Nar stri|Ver alli": 0.04225174975654807}}, {"under": {}, "over": {}}, {"under": {"Fes nigr|Nar stri": 0.011667590390196771}, "over": {}}, {"under": {"Hel vers|Pot aure": 0.01858869400755108, "Poa alpi|Tri alpi": 0.01858869400755108}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Tri alpi": 0.01867325828065457}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Tri alpi": 0.006733552270302039, "Pot aure|Tri alpi": 0.006733552270302039}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Pot aure": 0.0018884396871107687}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Poa alpi|Tri alpi": 0.021763727745624153}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Tri alpi": 0.032479755471899185, "Poa alpi|Pot aure": 0.02312932572176039, "Agr rupe|Tri alpi": 0.03463401391051296, "Fes nigr|Pla alpi": 0.03463401391051296, "Pla alpi|Pot aure": 0.02312932572176039}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Fes nigr": 0.01601275145486813}, "over": {}}, {"under": {"Car semp|Tri alpi": 0.026369109525586222, "Poa alpi|Pot aure": 0.042522259362037414, "Fes nigr|Hel vers": 0.032493865616332086, "Fes nigr|Pla alpi": 0.032493865616332086}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Pla mari|Pot aure": 0.0409281126400556}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Pot aure|Tri alpi": 0.04377855936670913}, "over": {}}, {"under": {"Car semp|Tri alpi": 0.014777626452277644}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Pot aure": 0.02252214638835756, "Pot aure|Tri alpi": 0.01928806130634225}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Nar stri|Tri alpi": 0.02940273426351502, "Poa alpi|Tri alpi": 0.0434597389643526, "Car semp|Fes nigr": 0.03700016357418731, "Fes nigr|Pot cran": 0.0434597389643526}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Fes hall": 0.038349081914341734, "Fes nigr|Pla alpi": 0.043495310455439244}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Pla mari|Pot aure": 0.04277697871120712}, "over": {}}, {"under": {"Alo gera|Car semp": 0.04405072401789698, "Car semp|Tri alpi": 0.03908124521407976, "Meu atha|Nar stri": 0.03908124521407976, "Car semp|Thy pule": 0.04405072401789698}, "over": {}}, {"under": {"Fes nigr|Pot aure": 0.03755907548192682}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Pla mari|Tri alpi": 0.04450700867743228}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Fes nigr|Pot aure": 0.008018134309981606}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Pot aure": 0.01599600880094126, "Hel vers|Pot aure": 0.01599600880094126}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Pot gran": 0.04842193607501424}, "over": {}}, {"under": {"Car semp|Pot aure": 0.023297290868222804, "Pot cran|Tri alpi": 0.0022027464184722605}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Tri alpi": 0.0016444939802329368}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Geu mont|Poa alpi": 0.04144639878708598}, "over": {}}, {"under": {}, "over": {"Geu mont|Pot cran": 0.0008204790971302495}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {"Bra pinn|Cam rotu": 0.027375877129242686}}, {"under": {}, "over": {}}, {"under": {"Ave flex|Car semp": 0.013319269429919437}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Poa alpi|Pot cran": 0.015553684130087458}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Alo gera|Pot cran": 0.018438872083149288}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Pla mari|Tri alpi": 0.04595530771276836}, "over": {"Bri medi|Cen unif": 0.044423075363569584}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Alo gera|Tri alpi": 0.0012327976612617926}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Tri alpi": 0.017013199038397816, "Poa alpi|Tri alpi": 0.04778111012874468}, "over": {}}, {"under": {}, "over": {"Ant odor|Pot cran": 0.02762467533330133}}, {"under": {"Car semp|Pot aure": 0.02173855154526231, "Fes nigr|Tri alpi": 0.013297023980413788}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Pla mari": 0.0074258105281814315}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Fes nigr|Pot aure": 0.049889886700623345}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Poa alpi": 0.04828864827358301, "Pot aure|Tri alpi": 0.04828864827358301}, "over": {}}, {"under": {"Pot aure|Tri alpi": 0.013340556482717942}, "over": {}}, {"under": {}, "over": {"Fes laev|Sco pyre": 0.024119293166686154}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Tri alpi": 0.0008578657701945483, "Poa alpi|Tri alpi": 0.005601009550880551, "Pla alpi|Poa alpi": 0.006171592978632785}, "over": {}}, {"under": {}, "over": {"Bis vivi|Lot corn": 0.004760013936139813}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Pot aure": 0.013401760136624658, "Car semp|Tri alpi": 0.007108979511238385, "Hel vers|Tri alpi": 0.04407709641780976, "Car semp|Vio calc": 0.04407709641780976, "Fes nigr|Tri alpi": 0.04407709641780976}, "over": {}}, {"under": {"Car semp|Tri alpi": 0.03704378782636474, "Alo gera|Ave flex": 0.03704378782636474, "Fes nigr|Hyp macu": 0.014850963264614523}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Hel vers|Tri alpi": 0.004359755103153239, "Agr capi|Fes nigr": 0.01531759220368079}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Agr capi|Fes nigr": 0.012117916526086512}, "over": {}}, {"under": {"Car semp|Fes nigr": 0.0001277303733222189, "Fes nigr|Tri alpi": 0.02434865873746433}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Tri alpi": 0.02685280992086567}, "over": {}}, {"under": {"Car semp|Tri alpi": 0.002512603411862606}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Fes nigr": 0.013804987498893298}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Pot aure|Tri alpi": 0.03439017518619318}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Fes laev": 0.03230507274777541}, "over": {}}, {"under": {"Pla alpi|Pot aure": 0.011165706175144964}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Poa alpi|Pot aure": 0.013180804197083992, "Car semp|Fes nigr": 0.029490503871474102, "Leo hisp|Pot aure": 0.035930786856732844}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Pla mari|Pot aure": 0.009533290072838365}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Hel vers": 0.04596933129732469, "Fes hall|Pla mari": 0.043411692484288354, "Car semp|Fes nigr": 0.001729776536401398}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Fes nigr": 0.021049120922346634}, "over": {}}, {"under": {"Car semp|Fes nigr": 0.03217710022631495}, "over": {}}, {"under": {"Car semp|Tri alpi": 0.007767387652004182, "Pot aure|Tri alpi": 0.038334062323397415, "Agr capi|Nar stri": 0.002388965663337382}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Tri alpi": 0.012870561493323333}, "over": {}}, {"under": {"Hel vers|Pot aure": 0.006754752341172853, "Poa alpi|Tri alpi": 0.04058402762757267}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Pot aure|Tri alpi": 0.009102365546876766, "Car semp|Pla alpi": 0.013444773050305173}, "over": {}}, {"under": {"Alo gera|Pot aure": 0.03828865469034671, "Fes nigr|Pla alpi": 0.0024131083073457384}, "over": {}}, {"under": {"Agr capi|Fes nigr": 0.037144144437241386, "Car acau|Pla alpi": 0.037144144437241386}, "over": {}}, {"under": {"Pla mari|Tri alpi": 0.007325584981290211, "Pot aure|Tri alpi": 5.3597710568068105e-05}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Tri alpi": 0.022355043815556922, "Pot aure|Tri alpi": 0.022355043815556922}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Pla mari": 0.026456618665727644, "Fes nigr|Hyp macu": 0.042600961473210436}, "over": {}}, {"under": {"Car semp|Nar stri": 0.027728035444553708}, "over": {}}, {"under": {"Alo gera|Poa alpi": 0.023711159655472415, "Car semp|Pot aure": 0.0013491596355328455, "Car semp|Sco pyre": 0.023621708149176423}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Poa alpi": 0.0050919615942947895, "Car semp|Pot aure": 0.02287297418380371}, "over": {}}, {"under": {"Pla mari|Tri alpi": 0.017536267284290422, "Car semp|Fes nigr": 0.017536267284290422, "Geu mont|Tri alpi": 0.03686576447982777}, "over": {}}, {"under": {"Car semp|Tri alpi": 0.019448901107577538, "Car semp|Fes nigr": 0.03982717851150795, "Bri medi|Car semp": 0.03982717851150795}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Fes nigr|Tri alpi": 0.032027593794450734}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Ave flex|Fes nigr": 0.00567642182476034}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Pot aure": 0.005942188959785449}, "over": {}}, {"under": {"Car semp|Tri alpi": 0.030630729383243304, "Pot aure|Tri alpi": 0.009000827805208717}, "over": {}}, {"under": {"Fes hall|Tri alpi": 0.008289000189355975}, "over": {}}, {"under": {"Pla alpi|Tri alpi": 0.0018499439928875076}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Tri alpi": 0.010420573043176867}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Pot aure": 0.024770084761226854}, "over": {}}, {"under": {"Nar stri|Pla mari": 0.014714920886377027}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Hel vers": 7.91619424195246e-05}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Pot aure": 0.013980531349995922, "Nar stri|Pot aure": 0.013980531349995922}, "over": {}}, {"under": {"Car semp|Poa alpi": 0.012349090635429369, "Car semp|Pla alpi": 0.02417226091021677}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {"Lot corn|Poa alpi": 0.04303680640975061}}, {"under": {"Alo gera|Tri alpi": 0.005626049030044764, "Car semp|Meu atha": 0.012659471870136503}, "over": {}}, {"under": {"Alo gera|Poa alpi": 0.044594380298718476, "Poa alpi|Tri alpi": 0.028415728803279052, "Car semp|Fes nigr": 0.028415728803279052}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Pot aure": 0.003203782813242475}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Fes hall": 0.034158957869773375}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Pot aure|Tri alpi": 0.0048132369777133515}, "over": {}}, {"under": {"Car semp|Poa alpi": 0.004633830935905429, "Nar stri|Pla mari": 0.004633830935905429, "Pot aure|Tri alpi": 0.006630444056606041, "Car semp|Geu mont": 0.01421068710974926, "Ave flex|Tri alpi": 0.03962685162254564, "Bri medi|Fes nigr": 0.006630444056606041}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Pot aure": 0.00444382293069, "Car semp|Tri alpi": 0.04847203897528085, "Pot aure|Tri alpi": 0.04847203897528085}, "over": {}}, {"under": {"Car semp|Fes nigr": 0.033606949874572495, "Meu atha|Pla alpi": 0.033606949874572495, "Pla alpi|Tri alpi": 0.033606949874572495}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Fes nigr|Hyp macu": 0.024612273951767}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Poa alpi|Tri alpi": 0.04289031101739952}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Nar stri|Pot aure": 0.04331266559200976, "Car semp|Fes nigr": 0.04331266559200976}, "over": {}}, {"under": {"Pla mari|Pot aure": 0.0016037046184736072}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Hel vers": 0.005412014485306598, "Car semp|Pot aure": 0.032000753318744406, "Fes nigr|Tri alpi": 0.0018234595668797098, "Car semp|Pla alpi": 0.017938465363231654}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Pot aure|Tri alpi": 0.023275883479886426, "Fes nigr|Tri alpi": 0.00119124942221837}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Fes nigr": 0.04545663012309734}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Pla mari": 0.023745847682968352, "Pla alpi|Poa alpi": 0.022832531355760632}, "over": {}}, {"under": {"Car semp|Poa alpi": 0.02244022011418567, "Car semp|Pot aure": 0.04255133640106335}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Pot aure|Sco pyre": 0.0049120996879809895}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Tri alpi": 0.04802130208866146}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Pot aure|Tri alpi": 0.01193066468982888, "Pot cran|Tri alpi": 0.01193066468982888}, "over": {}}, {"under": {"Fes nigr|Pla alpi": 0.017919094887501825}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Fes nigr|Pot aure": 0.0020624446516195843}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Pot aure|Tri alpi": 0.01991198591661525}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Tri alpi": 0.03463207364174708, "Agr capi|Ave flex": 0.03463207364174708}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Poa alpi": 0.0014871482726072638}, "over": {}}, {"under": {"Poa alpi|Pot aure": 0.04984765657518766, "Bri medi|Fes nigr": 0.03590718533623167}, "over": {}}, {"under": {"Meu atha|Tri alpi": 0.026192961585775318}, "over": {}}, {"under": {"Car semp|Pot aure": 0.03652698534115313, "Pot aure|Tri alpi": 0.03652698534115313, "Alo gera|Fes nigr": 0.03652698534115313}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Pot aure|Tri alpi": 0.003868539932631548}, "over": {}}, {"under": {"Pot aure|Tri alpi": 0.019380182435111252, "Fes nigr|Nar stri": 0.025936792618380312}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Pla mari|Poa alpi": 0.027802563484276784, "Alo gera|Pla alpi": 0.018217318704256743}, "over": {}}, {"under": {"Pot aure|Tri alpi": 0.049086325723167415, "Alo gera|Fes nigr": 0.04778166377598572, "Fes nigr|Pot cran": 0.04778166377598572}, "over": {}}, {"under": {"Pla mari|Tri alpi": 0.005192118822348576, "Fes nigr|Pla alpi": 0.024594512540246544}, "over": {}}, {"under": {"Car semp|Pot aure": 0.02778675982627884}, "over": {}}, {"under": {"Pot aure|Tri alpi": 0.00428487357089338}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Hel vers": 0.025002860878492954, "Car semp|Pla alpi": 0.03810414605058301}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Alo gera|Car semp": 0.0064203608089668475, "Car semp|Pot aure": 0.00997069346000689}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Tri alpi": 0.004569981659589916, "Pot aure|Tri alpi": 0.004569981659589916}, "over": {}}, {"under": {"Bis vivi|Car semp": 0.0004824431280134277, "Car semp|Vio calc": 0.013241914673718864}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Pot aure": 0.04901383735237253, "Car semp|Pot gran": 0.04901383735237253}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Pot aure": 0.041883911732384115}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Pot aure|Tri alpi": 0.031120394535014813}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Fes nigr|Tri alpi": 0.026104511376927528}, "over": {}}, {"under": {"Car semp|Pla mari": 0.04311282082427816}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Bis vivi|Pot aure": 0.04580909478812029}, "over": {}}, {"under": {"Alo gera|Pot aure": 0.029312604840882658}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Pot aure": 0.01727729332512967, "Car semp|Tri alpi": 0.01727729332512967}, "over": {}}, {"under": {"Car semp|Hel vers": 0.03769913506547619, "Car semp|Fes nigr": 0.004159395705285694, "Agr capi|Car semp": 0.009070395550000141}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Fes nigr|Pot aure": 0.006273357949755777}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Hel vers|Pot aure": 0.002194600182004263, "Car semp|Fes nigr": 0.03323594661761559}, "over": {}}, {"under": {"Poa alpi|Tri alpi": 0.017189452480176812}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Pot aure|Tri alpi": 0.031920826101041244}, "over": {}}, {"under": {"Pot aure|Tri alpi": 0.0066667232510441415}, "over": {}}, {"under": {"Poa alpi|Tri alpi": 0.0321470927031944}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Hel vers|Tri alpi": 0.04164387281752706, "Ave flex|Poa alpi": 0.04072451684081553, "Car semp|Pla alpi": 0.020238989821211743}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Pla alpi": 0.006249954038272726}, "over": {}}, {"under": {"Poa alpi|Pot aure": 0.0008743883099403824, "Car semp|Pla alpi": 0.015598265792550171}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Tri alpi": 0.0063768691561240124, "Fes hall|Tri alpi": 0.0063768691561240124}, "over": {}}, {"under": {"Car semp|Fes laev": 0.0003226544114370468}, "over": {}}, {"under": {"Car semp|Tri alpi": 0.015097634378144062, "Poa alpi|Tri alpi": 0.015097634378144062}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Pla alpi": 0.010342907011011338}, "over": {}}, {"under": {"Fes nigr|Tri alpi": 0.00048076488420681725}, "over": {}}, {"under": {"Car semp|Fes hall": 0.02597399126318575, "Poa alpi|Sco pyre": 0.02597399126318575, "Fes nigr|Pla alpi": 0.04431863065884733}, "over": {}}, {"under": {"Fes nigr|Poa alpi": 0.024671094435752376, "Car semp|Pla alpi": 0.024671094435752376}, "over": {}}, {"under": {"Car semp|Poa alpi": 0.009103445922690604}, "over": {}}, {"under": {"Car semp|Fes nigr": 0.035352286786089995, "Fes nigr|Poa alpi": 0.020926677595547043}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Pot aure|Tri alpi": 0.0020446501246206825}, "over": {}}, {"under": {"Ave flex|Car semp": 0.01924131801071894}, "over": {}}, {"under": {"Fes nigr|Pla mari": 0.028826764422440955}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Fes nigr|Tri alpi": 0.049140789270159156}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Pla mari|Pot aure": 0.0407990886704392, "Pla alpi|Poa alpi": 0.04937899833545747}, "over": {"Bis vivi|Sco pyre": 0.03377621818311097}}, {"under": {"Alo gera|Tri alpi": 0.030863410985008822, "Car semp|Pla mari": 0.014524236443380556}, "over": {}}, {"under": {"Fes nigr|Tri alpi": 5.243689057520876e-05}, "over": {}}, {"under": {"Alo gera|Nar stri": 0.03182486321135839, "Nar stri|Poa alpi": 0.025304318512948166, "Fes nigr|Nar stri": 0.025304318512948166}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Alo gera|Tri alpi": 0.03411216237220149, "Car semp|Pot aure": 0.036472016665946266, "Pla mari|Tri alpi": 0.036472016665946266, "Car semp|Fes nigr": 0.00027901488292135805}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Hel vers": 0.014649863743734679, "Pot aure|Tri alpi": 0.014649863743734679, "Fes nigr|Poa alpi": 0.01852588793215516, "Pla alpi|Poa alpi": 0.01852588793215516}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Fes hall|Pla mari": 0.007450370254752749}, "over": {}}, {"under": {"Fes nigr|Sco pyre": 0.04418002337084422}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Fes hall|Pot aure": 0.019137978288083033}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Agr capi|Fes nigr": 0.007079820070904122}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Fes nigr|Tri alpi": 0.0008066935330146513, "Alo gera|Fes nigr": 0.013310040745751064}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Alo gera|Pla mari": 0.04025048074354009, "Nar stri|Pot aure": 0.017732827947687484}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Pot aure|Tri alpi": 0.007406946407664465}, "over": {}}, {"under": {"Pot aure|Tri alpi": 0.0034597430525774506}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Pot aure|Tri alpi": 0.01757151129985819, "Car semp|Pla alpi": 0.027486058713920156}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Hel vers|Pot aure": 0.04794920648721585}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Pot aure": 0.022722775776604053}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Alo gera|Car semp": 0.03649855995080614}, "over": {}}, {"under": {"Nar stri|Poa alpi": 0.03956810862926929}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Pot aure|Tri alpi": 0.04406078245976693}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Pot aure": 0.0001008137438156965}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Pla mari|Pot aure": 0.018070418948836035}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Pot aure|Tri alpi": 0.01870065981237255, "Ave flex|Car semp": 0.01410337562501866}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Poa alpi": 0.00472619067169078, "Car semp|Tri alpi": 0.022659839186990643, "Car semp|Fes nigr": 0.016754348979935923}, "over": {}}, {"under": {"Fes nigr|Tri alpi": 0.015874079080282714}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Pot aure|Tri alpi": 0.030513328564594683}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Pla alpi": 0.02928041783229134}, "over": {}}, {"under": {"Car semp|Pot aure": 0.04979221471013286, "Nar stri|Pot aure": 0.04979221471013286}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Nar stri|Poa alpi": 0.04607771733187451, "Alo gera|Pla alpi": 0.04607771733187451}, "over": {}}, {"under": {"Car semp|Pla mari": 0.041484074060990195, "Poa alpi|Pot aure": 0.041484074060990195}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {"Alo gera|Ver alli": 0.020682982558821558}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Pla mari|Poa alpi": 0.03752758483693671, "Pla alpi|Pot aure": 0.02795353282573831, "Car acau|Nar stri": 0.04767427433119812}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Hel vers": 0.022011001561814}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Alo gera|Tri alpi": 0.013812716068171166}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Tri alpi": 0.00016711811884402125}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Pot aure|Tri alpi": 0.008569834930358879}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Pot aure|Tri alpi": 0.027133384774115126}, "over": {}}, {"under": {"Car semp|Tri alpi": 0.02382790901172135, "Fes nigr|Tri alpi": 0.02382790901172135}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Alo gera|Tri alpi": 0.009055506652642483, "Car semp|Tri alpi": 0.009055506652642483}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Pot aure": 0.017426845629805135}, "over": {}}, {"under": {"Car semp|Fes nigr": 0.014900055595361292}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Ave flex|Fes nigr": 0.03588605080549333}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Pla alpi|Tri alpi": 0.04540202279367158}, "over": {}}, {"under": {"Car semp|Tri alpi": 0.04321116011245905}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Tri alpi": 0.019509764581796037}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Nar stri|Tri alpi": 0.02516429974516442, "Fes nigr|Poa alpi": 0.03632977177423239, "Fes nigr|Pot aure": 0.02516429974516442}, "over": {}}, {"under": {"Poa alpi|Tri alpi": 0.003841863386801142}, "over": {}}, {"under": {"Car semp|Pot aure": 0.0024019018628011935, "Pla mari|Tri alpi": 0.003854245215978079}, "over": {}}, {"under": {"Car semp|Tri alpi": 0.02742862032861507}, "over": {}}, {"under": {"Poa alpi|Tri alpi": 0.011905595663948238}, "over": {}}, {"under": {"Pot aure|Tri alpi": 0.03437880116634724, "Car semp|Fes nigr": 0.008309664978560774}, "over": {}}, {"under": {"Car semp|Tri alpi": 0.037148926875853416, "Pla mari|Pot aure": 0.044853285873690175, "Pot aure|Tri alpi": 0.037148926875853416}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {"Cam rotu|Fes hall": 0.04493290686736339, "Fes hall|Meu atha": 0.04493290686736339}}, {"under": {}, "over": {}}, {"under": {"Fes nigr|Pot aure": 0.005134189076264754}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Fes nigr|Lot corn": 0.0420606751784517}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Tri alpi": 0.014879709503849146, "Poa alpi|Pot aure": 0.03384794142052625}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Pot aure": 0.03934787986226673, "Leo hisp|Tri alpi": 0.04206451019394922, "Agr capi|Pot aure": 0.03934787986226673}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Fes hall|Tri alpi": 0.0366788629546422}, "over": {}}, {"under": {"Pla mari|Pot aure": 0.013590654368052997}, "over": {}}, {"under": {"Poa alpi|Tri alpi": 0.00876981139397787}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Tri alpi": 4.049092655174133e-05, "Hel vers|Poa alpi": 0.036452652721734105, "Poa alpi|Pot aure": 0.004128246848578454, "Pot cran|Tri alpi": 0.006418970402470284}, "over": {}}, {"under": {"Alo gera|Tri alpi": 0.0038172237841940814, "Nar stri|Pot aure": 0.02834870163803464, "Pla alpi|Poa alpi": 0.02834870163803464}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Fes nigr|Sco pyre": 0.010119713124227452}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Tri alpi": 0.0465083673527238}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Fes hall": 0.023647987168799296, "Car semp|Tri alpi": 0.03591210207695737, "Car semp|Fes nigr": 0.03591210207695737}, "over": {}}, {"under": {"Alo gera|Tri alpi": 0.04996688838702315, "Car semp|Geu mont": 0.04996688838702315}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Fes nigr|Pla alpi": 0.005934531884057113}, "over": {}}, {"under": {"Agr rupe|Pot aure": 0.04441156316969606, "Fes hall|Fes nigr": 0.04441156316969606}, "over": {}}, {"under": {"Agr capi|Pla alpi": 0.03663798877365647}, "over": {}}, {"under": {"Fes hall|Pot aure": 0.00959127641625319, "Alo gera|Fes nigr": 0.00959127641625319}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Pot aure|Tri alpi": 0.008472681089316793}, "over": {}}, {"under": {"Car semp|Pot aure": 0.02478232929992663, "Nar stri|Pla alpi": 0.02478232929992663}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Geu mont|Poa alpi": 0.0009239087342748232}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Pot aure": 0.03341831479057916}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Pla mari|Tri alpi": 0.012531278143068068}, "over": {}}, {"under": {"Car semp|Pot aure": 0.0018148153742965128}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Pot aure": 0.022309382578479905, "Pot aure|Tri alpi": 0.017838228168024748}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Pla mari|Tri alpi": 0.013978438181686634}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Pot aure|Tri alpi": 0.031097415126802194, "Pot aure|Pot gran": 0.03773870867836958, "Hel vers|Pla alpi": 0.024168684597882045}, "over": {}}, {"under": {"Alo gera|Hel vers": 0.04446294480222368, "Car semp|Tri alpi": 0.0074285496081973506, "Fes hall|Pla mari": 0.017682163370794667}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Pot aure": 0.04892368492751123}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Poa alpi|Pot aure": 0.015195704328451022, "Fes nigr|Pot aure": 0.015195704328451022, "Ave flex|Car semp": 0.015195704328451022}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Pot aure|Tri alpi": 0.007469091231584938}, "over": {}}, {"under": {"Pot aure|Tri alpi": 0.010288787113437541, "Ave flex|Tri alpi": 0.030384699705179853, "Fes nigr|Pot gran": 0.010288787113437541, "Pla alpi|Vio calc": 0.030384699705179853}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Car semp|Fes nigr": 0.035597823164741686, "Fes nigr|Thy pule": 0.0351881336529266}, "over": {}}, {"under": {"Alo gera|Tri alpi": 0.01487816344176428}, "over": {}}, {"under": {}, "over": {}}, {"under": {"Pla alpi|Vio calc": 0.02218362858569396}, "over": {}}, {"under": {"Pla mari|Pot aure": 0.02702775827783124}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}, {"under": {}, "over": {}}]
+[
+    {
+        "under": {
+            "Car semp|Tri alpi": 0.0020063762385974524,
+            "Pla mari|Tri alpi": 0.04985383649737752
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Fes hall": 0.015879360777359432,
+            "Poa alpi|Tri alpi": 0.04562981656032931,
+            "Pla alpi|Vio calc": 0.023538941186265264
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pla alpi": 0.04717314036334282
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Fes nigr|Pot aure": 0.014908235492782996
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Fes hall|Pot aure": 0.029250635120777413
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {
+            "Bis vivi|Sco pyre": 0.00657128221086602
+        }
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Alo gera|Tri alpi": 0.042718896782607915,
+            "Pot aure|Tri alpi": 0.048865824953313056
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Tri alpi": 0.01707960874303886
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Alo gera|Hel vers": 0.04331993387592912
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pot aure": 0.0234984848884786
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Pot aure|Tri alpi": 0.04403056387274237,
+            "Fes nigr|Lot corn": 0.04403056387274237
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pot aure": 0.04816513759671636,
+            "Pot aure|Tri alpi": 0.002128307212254388,
+            "Bis vivi|Pot aure": 0.04284413598846965,
+            "Fes nigr|Pla alpi": 0.04816513759671636
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Pot aure|Tri alpi": 0.004445656095471075
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Pot aure|Tri alpi": 0.03281170713101562
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Pla mari|Pot aure": 0.04519236426485042,
+            "Geu mont|Poa alpi": 0.04519236426485042,
+            "Car acau|Fes nigr": 0.014691263422455332,
+            "Fes nigr|Lot corn": 0.03801744821526293
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Alo gera|Tri alpi": 0.006346250555886728
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Pla alpi|Pot aure": 0.0015299193017930717
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Pot aure|Tri alpi": 0.0035827069478660345
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Alo gera|Pot aure": 0.016002577307473242,
+            "Nar stri|Vio calc": 0.016002577307473242
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Poa alpi": 0.032406499459053516,
+            "Car semp|Tri alpi": 0.032406499459053516,
+            "Pot aure|Tri alpi": 0.032406499459053516
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Pot aure|Sco pyre": 0.0063843911820333065
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Pot aure|Tri alpi": 0.0012393190482377383
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Poa alpi": 0.03879805647737832,
+            "Pot aure|Tri alpi": 0.002431001764329638
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Pla mari|Poa alpi": 0.017110122741045796
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Alo gera|Tri alpi": 0.007663391603914477
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Poa alpi|Pot aure": 0.03616823369578561
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pot aure": 0.005565043556508136
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Hel vers": 0.02395898943892534
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Fes nigr|Tri alpi": 0.03617616656117793
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {
+            "Car acau|Sco pyre": 0.014521724028693037
+        }
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Tri alpi": 0.04183104958777244,
+            "Pla mari|Pot aure": 0.044231107360694764
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Fes nigr|Pla alpi": 0.010261410625156163
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Pot aure|Tri alpi": 0.038585451418227786,
+            "Ave flex|Poa alpi": 0.043475987985595814
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Tri alpi": 0.012387015580484006,
+            "Hel vers|Pot aure": 0.012387015580484006,
+            "Poa alpi|Tri alpi": 0.017323725324449212,
+            "Fes nigr|Tri alpi": 0.014688768568711132
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Poa alpi": 0.045691759300504835,
+            "Car semp|Tri alpi": 0.010558396675908778,
+            "Fes hall|Tri alpi": 0.010558396675908778,
+            "Pot aure|Tri alpi": 0.010558396675908778
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Hel vers|Pot aure": 0.007475566280016778,
+            "Poa alpi|Tri alpi": 0.012752549058165953
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Tri alpi": 0.046361009669275394
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pot aure": 0.01878956758785256
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Pla mari|Pot aure": 0.04018736551800609
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Nar stri|Poa alpi": 0.03527886208399294
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Poa alpi|Pot aure": 0.038904807924379343
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Tri alpi": 0.015955886802339704
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Tri alpi": 0.0034477767457991885,
+            "Pot aure|Tri alpi": 0.041157382087782385,
+            "Agr capi|Fes nigr": 0.005377626577106612,
+            "Bri medi|Fes nigr": 0.044009476085267854
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Alo gera|Pot aure": 0.04580275695363083
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Leo hisp|Pot aure": 0.03868263100487158
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Hel vers": 0.03714929640309201,
+            "Pot aure|Tri alpi": 0.03714929640309201
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pot aure": 0.048414121153503985,
+            "Car semp|Tri alpi": 0.048414121153503985,
+            "Tri alpi|Vio calc": 0.048414121153503985
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Alo gera|Car semp": 0.03663769192804927,
+            "Car semp|Pla mari": 0.0005684839025696517,
+            "Cam rotu|Poa alpi": 0.03663769192804927,
+            "Fes nigr|Nar stri": 0.0476780527678565,
+            "Fes nigr|Tri alpi": 0.0013185795227046262,
+            "Agr capi|Tri alpi": 0.03537929982722835
+        },
+        "over": {
+            "Fes hall|Pat pani": 0.043954502488114985
+        }
+    },
+    {
+        "under": {
+            "Car semp|Tri alpi": 0.016871237820328552,
+            "Meu atha|Tri alpi": 0.03565450285740167
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Alo gera|Tri alpi": 0.022484678400596803,
+            "Hel vers|Pla mari": 0.024302535127263086,
+            "Agr capi|Tri alpi": 0.042074510708612234
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Tri alpi": 0.0002700214273883492
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Pot aure|Tri alpi": 0.040329824952297
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Tri alpi": 0.01335907369280897,
+            "Poa alpi|Pot aure": 0.04112066484606379,
+            "Car semp|Pla alpi": 0.04112066484606379
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pot aure": 0.041322269880167656
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Tri alpi": 0.027364880566433453,
+            "Poa alpi|Tri alpi": 0.04602772889668103,
+            "Pot aure|Tri alpi": 0.027364880566433453
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Tri alpi": 0.03568963355712709
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Alo gera|Fes nigr": 0.02527164314546385
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pot aure": 0.009742576517537292
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Fes nigr|Pla alpi": 0.0007451924431501772
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Alo gera|Pla alpi": 0.041684532932026855
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pot aure": 0.047036196792627674,
+            "Car semp|Tri alpi": 0.025696443828782525,
+            "Fes nigr|Meu atha": 0.022038327353609635,
+            "Meu atha|Nar stri": 0.022038327353609635,
+            "Car acau|Nar stri": 0.025696443828782525,
+            "Pot aure|Thy pule": 0.047036196792627674
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Nar stri|Pla alpi": 0.032248623131444054
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Alo gera|Pot aure": 0.041399583574609,
+            "Car semp|Pot aure": 0.041399583574609,
+            "Fes hall|Pot aure": 0.030278375922142768
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Fes hall|Nar stri": 0.04082723501879892,
+            "Fes hall|Tri alpi": 0.04082723501879892
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pot aure": 0.0001759428404840494,
+            "Fes hall|Pot aure": 0.016707187463929976
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Ave flex|Car semp": 0.0028556009704220663
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pot aure": 0.02245286863734017,
+            "Fes nigr|Poa alpi": 0.04126983804092272,
+            "Nar stri|Pla alpi": 0.002829846674995687
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Pot cran|Tri alpi": 0.0004367808366483346
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Fes nigr": 0.033802238640921155
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Fes nigr": 0.008419253909036691
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Pot aure|Tri alpi": 0.006718168473246765,
+            "Pla alpi|Tri alpi": 0.028266143760875044
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Alo gera|Tri alpi": 0.01880481968771573,
+            "Pla alpi|Tri alpi": 0.03894864354196671
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Alo gera|Pot aure": 0.04588230056298712,
+            "Car semp|Vio calc": 0.04588230056298712,
+            "Pot cran|Tri alpi": 0.04588230056298712
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Hel numm": 0.04269301392835353
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Pla alpi|Tri alpi": 0.004708263627319219
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pot aure": 0.029717049844696853
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Pot aure|Tri alpi": 0.014214801962088571,
+            "Ave flex|Poa alpi": 0.03258965144942281
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pot aure": 0.007821269253785488,
+            "Nar stri|Tri alpi": 0.03491514494926148
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {
+            "Agr rupe|Poa alpi": 0.0013399897226496111
+        }
+    },
+    {
+        "under": {
+            "Car semp|Fes nigr": 0.0032023776146001886,
+            "Car acau|Car semp": 0.03505983065969317
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Pot aure|Tri alpi": 0.0003438234185432216
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pot aure": 0.04025066462822519,
+            "Fes nigr|Nar stri": 0.04025066462822519
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Alo gera|Pot aure": 0.04914046936031838,
+            "Car semp|Poa alpi": 0.04914046936031838,
+            "Poa alpi|Sco pyre": 0.04914046936031838,
+            "Fes nigr|Pot aure": 0.04914046936031838
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pot aure": 0.021355169217780468,
+            "Pot aure|Tri alpi": 0.005528204003531129,
+            "Poa alpi|Pot cran": 0.01688237606127559,
+            "Alo gera|Pla alpi": 0.021355169217780468
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Fes nigr": 0.017032525930488897
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pot aure": 0.004548868705134665,
+            "Hel vers|Pla mari": 0.0028773603272216593
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Pot aure|Tri alpi": 0.007195565837739012
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Nar stri|Tri alpi": 0.04911847288796259,
+            "Car semp|Fes laev": 0.04911847288796259
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Tri alpi": 0.006677688025967203
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pot aure": 0.04617779707122521
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Tri alpi": 0.024765785120996982,
+            "Pla mari|Tri alpi": 0.0015074451149996284
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pla mari": 0.039494778378091615
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Hel vers|Pot aure": 0.04046762043301482,
+            "Poa alpi|Pot aure": 0.04046762043301482
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Tri alpi": 0.0005916278513704474
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Pla mari|Pot aure": 0.01017868945457258,
+            "Cam rotu|Pot aure": 0.020176143546065648,
+            "Car semp|Fes nigr": 0.0045459825248756755
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Fes hall|Fes nigr": 0.04653346049559662
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Fes nigr": 0.04686662828339159,
+            "Fes nigr|Nar stri": 0.04686662828339159,
+            "Fes nigr|Tri alpi": 0.04686662828339159
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Poa alpi|Tri alpi": 0.0334864861234021,
+            "Car acau|Car semp": 0.0334864861234021
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Poa alpi|Tri alpi": 0.023749263208189392
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Pot aure|Tri alpi": 0.008563876010628982,
+            "Fes laev|Fes nigr": 0.019549293376344423
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Tri alpi": 0.025137386100608047,
+            "Hel vers|Tri alpi": 0.025137386100608047,
+            "Fes nigr|Tri alpi": 0.025137386100608047
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Fes nigr|Pot aure": 0.033122231886243074
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Tri alpi": 0.030676873306268917
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Cam rotu|Pot aure": 0.019256368871197554,
+            "Fes nigr|Tri alpi": 0.029318608256583282
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Pla mari|Pot aure": 0.03577161738383745
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Poa alpi|Pot cran": 0.03527106641034616
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Nar stri|Vio calc": 0.012680599574901311
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Fes nigr": 0.010855260413523863
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Nar stri|Vio calc": 0.003436759051955961
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Fes hall|Pla mari": 0.021406627140460405
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Tri alpi": 0.001629594947633258,
+            "Pot aure|Tri alpi": 0.02496988799371684,
+            "Agr capi|Car semp": 0.02496988799371684
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pot aure": 0.039863561157956265
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Hel vers|Pot aure": 0.04628881979174005,
+            "Pot aure|Tri alpi": 0.026424632854446222
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Tri alpi": 0.004731059716573982
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {
+            "Ant odor|Sco pyre": 0.0046217475794940585
+        }
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Alo gera|Tri alpi": 0.044738236409487396,
+            "Nar stri|Tri alpi": 0.044738236409487396,
+            "Cam rotu|Car semp": 0.044738236409487396,
+            "Fes nigr|Tri alpi": 0.044738236409487396
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Tri alpi": 0.022057097923465822
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Hel vers": 0.04075941419044473
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Pot aure|Tri alpi": 0.001698356393918424,
+            "Fes nigr|Pot aure": 0.0024798988831310218
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Tri alpi": 0.030653219220166384
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Hel vers": 0.016306410357420656,
+            "Pla mari|Tri alpi": 0.016306410357420656
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Hel vers|Pot aure": 0.026872602125096075
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Hel vers": 0.025978251012651846,
+            "Poa alpi|Tri alpi": 0.025978251012651846
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Hel vers|Pot aure": 0.028584794055517178
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Fes nigr|Tri alpi": 0.03584910916612473
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Tri alpi": 0.005737829125533601,
+            "Nar stri|Tri alpi": 0.04516273825985777
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Tri alpi": 0.0001350919193637886,
+            "Pot aure|Tri alpi": 0.011445002198833086
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Poa alpi|Tri alpi": 0.017494018051713092,
+            "Fes nigr|Nar stri": 0.002801540211365957,
+            "Car semp|Pla alpi": 0.0010043273114848695,
+            "Agr capi|Nar stri": 0.04248755914382367
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Alo gera|Car semp": 0.04644103351454013,
+            "Meu atha|Pla alpi": 0.021552910623825278
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Tri alpi": 0.043295104762716405
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pot aure": 0.02974375140685087,
+            "Nar stri|Tri alpi": 0.02974375140685087,
+            "Car semp|Fes nigr": 0.02974375140685087
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Nar stri|Pla mari": 0.022316726671953623,
+            "Nar stri|Tri alpi": 0.022316726671953623
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Pot aure|Tri alpi": 0.04793706262166319
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pla mari": 0.0471307885954726,
+            "Fes hall|Tri alpi": 0.013195686852702223
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Tri alpi": 0.012077342863719734
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Fes nigr|Meu atha": 0.001397428438831362
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Nar stri": 0.00864046401856475
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Poa alpi|Pot cran": 0.03035348846102556,
+            "Meu atha|Nar stri": 0.03035348846102556
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Pot aure|Vio calc": 8.743777506472026e-05
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pot aure": 0.03451996482659438
+        },
+        "over": {
+            "Nar stri|Ver alli": 0.04225174975654807
+        }
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Fes nigr|Nar stri": 0.011667590390196771
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Hel vers|Pot aure": 0.01858869400755108,
+            "Poa alpi|Tri alpi": 0.01858869400755108
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Tri alpi": 0.01867325828065457
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Tri alpi": 0.006733552270302039,
+            "Pot aure|Tri alpi": 0.006733552270302039
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pot aure": 0.0018884396871107687
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Poa alpi|Tri alpi": 0.021763727745624153
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Tri alpi": 0.032479755471899185,
+            "Poa alpi|Pot aure": 0.02312932572176039,
+            "Agr rupe|Tri alpi": 0.03463401391051296,
+            "Fes nigr|Pla alpi": 0.03463401391051296,
+            "Pla alpi|Pot aure": 0.02312932572176039
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Fes nigr": 0.01601275145486813
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Tri alpi": 0.026369109525586222,
+            "Poa alpi|Pot aure": 0.042522259362037414,
+            "Fes nigr|Hel vers": 0.032493865616332086,
+            "Fes nigr|Pla alpi": 0.032493865616332086
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Pla mari|Pot aure": 0.0409281126400556
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Pot aure|Tri alpi": 0.04377855936670913
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Tri alpi": 0.014777626452277644
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pot aure": 0.02252214638835756,
+            "Pot aure|Tri alpi": 0.01928806130634225
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Nar stri|Tri alpi": 0.02940273426351502,
+            "Poa alpi|Tri alpi": 0.0434597389643526,
+            "Car semp|Fes nigr": 0.03700016357418731,
+            "Fes nigr|Pot cran": 0.0434597389643526
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Fes hall": 0.038349081914341734,
+            "Fes nigr|Pla alpi": 0.043495310455439244
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Pla mari|Pot aure": 0.04277697871120712
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Alo gera|Car semp": 0.04405072401789698,
+            "Car semp|Tri alpi": 0.03908124521407976,
+            "Meu atha|Nar stri": 0.03908124521407976,
+            "Car semp|Thy pule": 0.04405072401789698
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Fes nigr|Pot aure": 0.03755907548192682
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Pla mari|Tri alpi": 0.04450700867743228
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Fes nigr|Pot aure": 0.008018134309981606
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pot aure": 0.01599600880094126,
+            "Hel vers|Pot aure": 0.01599600880094126
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pot gran": 0.04842193607501424
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pot aure": 0.023297290868222804,
+            "Pot cran|Tri alpi": 0.0022027464184722605
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Tri alpi": 0.0016444939802329368
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Geu mont|Poa alpi": 0.04144639878708598
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {
+            "Geu mont|Pot cran": 0.0008204790971302495
+        }
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {
+            "Bra pinn|Cam rotu": 0.027375877129242686
+        }
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Ave flex|Car semp": 0.013319269429919437
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Poa alpi|Pot cran": 0.015553684130087458
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Alo gera|Pot cran": 0.018438872083149288
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Pla mari|Tri alpi": 0.04595530771276836
+        },
+        "over": {
+            "Bri medi|Cen unif": 0.044423075363569584
+        }
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Alo gera|Tri alpi": 0.0012327976612617926
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Tri alpi": 0.017013199038397816,
+            "Poa alpi|Tri alpi": 0.04778111012874468
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {
+            "Ant odor|Pot cran": 0.02762467533330133
+        }
+    },
+    {
+        "under": {
+            "Car semp|Pot aure": 0.02173855154526231,
+            "Fes nigr|Tri alpi": 0.013297023980413788
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pla mari": 0.0074258105281814315
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Fes nigr|Pot aure": 0.049889886700623345
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Poa alpi": 0.04828864827358301,
+            "Pot aure|Tri alpi": 0.04828864827358301
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Pot aure|Tri alpi": 0.013340556482717942
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {
+            "Fes laev|Sco pyre": 0.024119293166686154
+        }
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Tri alpi": 0.0008578657701945483,
+            "Poa alpi|Tri alpi": 0.005601009550880551,
+            "Pla alpi|Poa alpi": 0.006171592978632785
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {
+            "Bis vivi|Lot corn": 0.004760013936139813
+        }
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pot aure": 0.013401760136624658,
+            "Car semp|Tri alpi": 0.007108979511238385,
+            "Hel vers|Tri alpi": 0.04407709641780976,
+            "Car semp|Vio calc": 0.04407709641780976,
+            "Fes nigr|Tri alpi": 0.04407709641780976
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Tri alpi": 0.03704378782636474,
+            "Alo gera|Ave flex": 0.03704378782636474,
+            "Fes nigr|Hyp macu": 0.014850963264614523
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Hel vers|Tri alpi": 0.004359755103153239,
+            "Agr capi|Fes nigr": 0.01531759220368079
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Agr capi|Fes nigr": 0.012117916526086512
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Fes nigr": 0.0001277303733222189,
+            "Fes nigr|Tri alpi": 0.02434865873746433
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Tri alpi": 0.02685280992086567
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Tri alpi": 0.002512603411862606
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Fes nigr": 0.013804987498893298
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Pot aure|Tri alpi": 0.03439017518619318
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Fes laev": 0.03230507274777541
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Pla alpi|Pot aure": 0.011165706175144964
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Poa alpi|Pot aure": 0.013180804197083992,
+            "Car semp|Fes nigr": 0.029490503871474102,
+            "Leo hisp|Pot aure": 0.035930786856732844
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Pla mari|Pot aure": 0.009533290072838365
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Hel vers": 0.04596933129732469,
+            "Fes hall|Pla mari": 0.043411692484288354,
+            "Car semp|Fes nigr": 0.001729776536401398
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Fes nigr": 0.021049120922346634
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Fes nigr": 0.03217710022631495
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Tri alpi": 0.007767387652004182,
+            "Pot aure|Tri alpi": 0.038334062323397415,
+            "Agr capi|Nar stri": 0.002388965663337382
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Tri alpi": 0.012870561493323333
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Hel vers|Pot aure": 0.006754752341172853,
+            "Poa alpi|Tri alpi": 0.04058402762757267
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Pot aure|Tri alpi": 0.009102365546876766,
+            "Car semp|Pla alpi": 0.013444773050305173
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Alo gera|Pot aure": 0.03828865469034671,
+            "Fes nigr|Pla alpi": 0.0024131083073457384
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Agr capi|Fes nigr": 0.037144144437241386,
+            "Car acau|Pla alpi": 0.037144144437241386
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Pla mari|Tri alpi": 0.007325584981290211,
+            "Pot aure|Tri alpi": 5.3597710568068105e-05
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Tri alpi": 0.022355043815556922,
+            "Pot aure|Tri alpi": 0.022355043815556922
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pla mari": 0.026456618665727644,
+            "Fes nigr|Hyp macu": 0.042600961473210436
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Nar stri": 0.027728035444553708
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Alo gera|Poa alpi": 0.023711159655472415,
+            "Car semp|Pot aure": 0.0013491596355328455,
+            "Car semp|Sco pyre": 0.023621708149176423
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Poa alpi": 0.0050919615942947895,
+            "Car semp|Pot aure": 0.02287297418380371
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Pla mari|Tri alpi": 0.017536267284290422,
+            "Car semp|Fes nigr": 0.017536267284290422,
+            "Geu mont|Tri alpi": 0.03686576447982777
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Tri alpi": 0.019448901107577538,
+            "Car semp|Fes nigr": 0.03982717851150795,
+            "Bri medi|Car semp": 0.03982717851150795
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Fes nigr|Tri alpi": 0.032027593794450734
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Ave flex|Fes nigr": 0.00567642182476034
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pot aure": 0.005942188959785449
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Tri alpi": 0.030630729383243304,
+            "Pot aure|Tri alpi": 0.009000827805208717
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Fes hall|Tri alpi": 0.008289000189355975
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Pla alpi|Tri alpi": 0.0018499439928875076
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Tri alpi": 0.010420573043176867
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pot aure": 0.024770084761226854
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Nar stri|Pla mari": 0.014714920886377027
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Hel vers": 7.91619424195246e-05
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pot aure": 0.013980531349995922,
+            "Nar stri|Pot aure": 0.013980531349995922
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Poa alpi": 0.012349090635429369,
+            "Car semp|Pla alpi": 0.02417226091021677
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {
+            "Lot corn|Poa alpi": 0.04303680640975061
+        }
+    },
+    {
+        "under": {
+            "Alo gera|Tri alpi": 0.005626049030044764,
+            "Car semp|Meu atha": 0.012659471870136503
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Alo gera|Poa alpi": 0.044594380298718476,
+            "Poa alpi|Tri alpi": 0.028415728803279052,
+            "Car semp|Fes nigr": 0.028415728803279052
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pot aure": 0.003203782813242475
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Fes hall": 0.034158957869773375
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Pot aure|Tri alpi": 0.0048132369777133515
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Poa alpi": 0.004633830935905429,
+            "Nar stri|Pla mari": 0.004633830935905429,
+            "Pot aure|Tri alpi": 0.006630444056606041,
+            "Car semp|Geu mont": 0.01421068710974926,
+            "Ave flex|Tri alpi": 0.03962685162254564,
+            "Bri medi|Fes nigr": 0.006630444056606041
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pot aure": 0.00444382293069,
+            "Car semp|Tri alpi": 0.04847203897528085,
+            "Pot aure|Tri alpi": 0.04847203897528085
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Fes nigr": 0.033606949874572495,
+            "Meu atha|Pla alpi": 0.033606949874572495,
+            "Pla alpi|Tri alpi": 0.033606949874572495
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Fes nigr|Hyp macu": 0.024612273951767
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Poa alpi|Tri alpi": 0.04289031101739952
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Nar stri|Pot aure": 0.04331266559200976,
+            "Car semp|Fes nigr": 0.04331266559200976
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Pla mari|Pot aure": 0.0016037046184736072
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Hel vers": 0.005412014485306598,
+            "Car semp|Pot aure": 0.032000753318744406,
+            "Fes nigr|Tri alpi": 0.0018234595668797098,
+            "Car semp|Pla alpi": 0.017938465363231654
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Pot aure|Tri alpi": 0.023275883479886426,
+            "Fes nigr|Tri alpi": 0.00119124942221837
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Fes nigr": 0.04545663012309734
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pla mari": 0.023745847682968352,
+            "Pla alpi|Poa alpi": 0.022832531355760632
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Poa alpi": 0.02244022011418567,
+            "Car semp|Pot aure": 0.04255133640106335
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Pot aure|Sco pyre": 0.0049120996879809895
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Tri alpi": 0.04802130208866146
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Pot aure|Tri alpi": 0.01193066468982888,
+            "Pot cran|Tri alpi": 0.01193066468982888
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Fes nigr|Pla alpi": 0.017919094887501825
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Fes nigr|Pot aure": 0.0020624446516195843
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Pot aure|Tri alpi": 0.01991198591661525
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Tri alpi": 0.03463207364174708,
+            "Agr capi|Ave flex": 0.03463207364174708
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Poa alpi": 0.0014871482726072638
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Poa alpi|Pot aure": 0.04984765657518766,
+            "Bri medi|Fes nigr": 0.03590718533623167
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Meu atha|Tri alpi": 0.026192961585775318
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pot aure": 0.03652698534115313,
+            "Pot aure|Tri alpi": 0.03652698534115313,
+            "Alo gera|Fes nigr": 0.03652698534115313
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Pot aure|Tri alpi": 0.003868539932631548
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Pot aure|Tri alpi": 0.019380182435111252,
+            "Fes nigr|Nar stri": 0.025936792618380312
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Pla mari|Poa alpi": 0.027802563484276784,
+            "Alo gera|Pla alpi": 0.018217318704256743
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Pot aure|Tri alpi": 0.049086325723167415,
+            "Alo gera|Fes nigr": 0.04778166377598572,
+            "Fes nigr|Pot cran": 0.04778166377598572
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Pla mari|Tri alpi": 0.005192118822348576,
+            "Fes nigr|Pla alpi": 0.024594512540246544
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pot aure": 0.02778675982627884
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Pot aure|Tri alpi": 0.00428487357089338
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Hel vers": 0.025002860878492954,
+            "Car semp|Pla alpi": 0.03810414605058301
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Alo gera|Car semp": 0.0064203608089668475,
+            "Car semp|Pot aure": 0.00997069346000689
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Tri alpi": 0.004569981659589916,
+            "Pot aure|Tri alpi": 0.004569981659589916
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Bis vivi|Car semp": 0.0004824431280134277,
+            "Car semp|Vio calc": 0.013241914673718864
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pot aure": 0.04901383735237253,
+            "Car semp|Pot gran": 0.04901383735237253
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pot aure": 0.041883911732384115
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Pot aure|Tri alpi": 0.031120394535014813
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Fes nigr|Tri alpi": 0.026104511376927528
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pla mari": 0.04311282082427816
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Bis vivi|Pot aure": 0.04580909478812029
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Alo gera|Pot aure": 0.029312604840882658
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pot aure": 0.01727729332512967,
+            "Car semp|Tri alpi": 0.01727729332512967
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Hel vers": 0.03769913506547619,
+            "Car semp|Fes nigr": 0.004159395705285694,
+            "Agr capi|Car semp": 0.009070395550000141
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Fes nigr|Pot aure": 0.006273357949755777
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Hel vers|Pot aure": 0.002194600182004263,
+            "Car semp|Fes nigr": 0.03323594661761559
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Poa alpi|Tri alpi": 0.017189452480176812
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Pot aure|Tri alpi": 0.031920826101041244
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Pot aure|Tri alpi": 0.0066667232510441415
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Poa alpi|Tri alpi": 0.0321470927031944
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Hel vers|Tri alpi": 0.04164387281752706,
+            "Ave flex|Poa alpi": 0.04072451684081553,
+            "Car semp|Pla alpi": 0.020238989821211743
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pla alpi": 0.006249954038272726
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Poa alpi|Pot aure": 0.0008743883099403824,
+            "Car semp|Pla alpi": 0.015598265792550171
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Tri alpi": 0.0063768691561240124,
+            "Fes hall|Tri alpi": 0.0063768691561240124
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Fes laev": 0.0003226544114370468
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Tri alpi": 0.015097634378144062,
+            "Poa alpi|Tri alpi": 0.015097634378144062
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pla alpi": 0.010342907011011338
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Fes nigr|Tri alpi": 0.00048076488420681725
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Fes hall": 0.02597399126318575,
+            "Poa alpi|Sco pyre": 0.02597399126318575,
+            "Fes nigr|Pla alpi": 0.04431863065884733
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Fes nigr|Poa alpi": 0.024671094435752376,
+            "Car semp|Pla alpi": 0.024671094435752376
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Poa alpi": 0.009103445922690604
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Fes nigr": 0.035352286786089995,
+            "Fes nigr|Poa alpi": 0.020926677595547043
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Pot aure|Tri alpi": 0.0020446501246206825
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Ave flex|Car semp": 0.01924131801071894
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Fes nigr|Pla mari": 0.028826764422440955
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Fes nigr|Tri alpi": 0.049140789270159156
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Pla mari|Pot aure": 0.0407990886704392,
+            "Pla alpi|Poa alpi": 0.04937899833545747
+        },
+        "over": {
+            "Bis vivi|Sco pyre": 0.03377621818311097
+        }
+    },
+    {
+        "under": {
+            "Alo gera|Tri alpi": 0.030863410985008822,
+            "Car semp|Pla mari": 0.014524236443380556
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Fes nigr|Tri alpi": 5.243689057520876e-05
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Alo gera|Nar stri": 0.03182486321135839,
+            "Nar stri|Poa alpi": 0.025304318512948166,
+            "Fes nigr|Nar stri": 0.025304318512948166
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Alo gera|Tri alpi": 0.03411216237220149,
+            "Car semp|Pot aure": 0.036472016665946266,
+            "Pla mari|Tri alpi": 0.036472016665946266,
+            "Car semp|Fes nigr": 0.00027901488292135805
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Hel vers": 0.014649863743734679,
+            "Pot aure|Tri alpi": 0.014649863743734679,
+            "Fes nigr|Poa alpi": 0.01852588793215516,
+            "Pla alpi|Poa alpi": 0.01852588793215516
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Fes hall|Pla mari": 0.007450370254752749
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Fes nigr|Sco pyre": 0.04418002337084422
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Fes hall|Pot aure": 0.019137978288083033
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Agr capi|Fes nigr": 0.007079820070904122
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Fes nigr|Tri alpi": 0.0008066935330146513,
+            "Alo gera|Fes nigr": 0.013310040745751064
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Alo gera|Pla mari": 0.04025048074354009,
+            "Nar stri|Pot aure": 0.017732827947687484
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Pot aure|Tri alpi": 0.007406946407664465
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Pot aure|Tri alpi": 0.0034597430525774506
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Pot aure|Tri alpi": 0.01757151129985819,
+            "Car semp|Pla alpi": 0.027486058713920156
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Hel vers|Pot aure": 0.04794920648721585
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pot aure": 0.022722775776604053
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Alo gera|Car semp": 0.03649855995080614
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Nar stri|Poa alpi": 0.03956810862926929
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Pot aure|Tri alpi": 0.04406078245976693
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pot aure": 0.0001008137438156965
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Pla mari|Pot aure": 0.018070418948836035
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Pot aure|Tri alpi": 0.01870065981237255,
+            "Ave flex|Car semp": 0.01410337562501866
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Poa alpi": 0.00472619067169078,
+            "Car semp|Tri alpi": 0.022659839186990643,
+            "Car semp|Fes nigr": 0.016754348979935923
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Fes nigr|Tri alpi": 0.015874079080282714
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Pot aure|Tri alpi": 0.030513328564594683
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pla alpi": 0.02928041783229134
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pot aure": 0.04979221471013286,
+            "Nar stri|Pot aure": 0.04979221471013286
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Nar stri|Poa alpi": 0.04607771733187451,
+            "Alo gera|Pla alpi": 0.04607771733187451
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pla mari": 0.041484074060990195,
+            "Poa alpi|Pot aure": 0.041484074060990195
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {
+            "Alo gera|Ver alli": 0.020682982558821558
+        }
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Pla mari|Poa alpi": 0.03752758483693671,
+            "Pla alpi|Pot aure": 0.02795353282573831,
+            "Car acau|Nar stri": 0.04767427433119812
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Hel vers": 0.022011001561814
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Alo gera|Tri alpi": 0.013812716068171166
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Tri alpi": 0.00016711811884402125
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Pot aure|Tri alpi": 0.008569834930358879
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Pot aure|Tri alpi": 0.027133384774115126
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Tri alpi": 0.02382790901172135,
+            "Fes nigr|Tri alpi": 0.02382790901172135
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Alo gera|Tri alpi": 0.009055506652642483,
+            "Car semp|Tri alpi": 0.009055506652642483
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pot aure": 0.017426845629805135
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Fes nigr": 0.014900055595361292
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Ave flex|Fes nigr": 0.03588605080549333
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Pla alpi|Tri alpi": 0.04540202279367158
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Tri alpi": 0.04321116011245905
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Tri alpi": 0.019509764581796037
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Nar stri|Tri alpi": 0.02516429974516442,
+            "Fes nigr|Poa alpi": 0.03632977177423239,
+            "Fes nigr|Pot aure": 0.02516429974516442
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Poa alpi|Tri alpi": 0.003841863386801142
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pot aure": 0.0024019018628011935,
+            "Pla mari|Tri alpi": 0.003854245215978079
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Tri alpi": 0.02742862032861507
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Poa alpi|Tri alpi": 0.011905595663948238
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Pot aure|Tri alpi": 0.03437880116634724,
+            "Car semp|Fes nigr": 0.008309664978560774
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Tri alpi": 0.037148926875853416,
+            "Pla mari|Pot aure": 0.044853285873690175,
+            "Pot aure|Tri alpi": 0.037148926875853416
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {
+            "Cam rotu|Fes hall": 0.04493290686736339,
+            "Fes hall|Meu atha": 0.04493290686736339
+        }
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Fes nigr|Pot aure": 0.005134189076264754
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Fes nigr|Lot corn": 0.0420606751784517
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Tri alpi": 0.014879709503849146,
+            "Poa alpi|Pot aure": 0.03384794142052625
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pot aure": 0.03934787986226673,
+            "Leo hisp|Tri alpi": 0.04206451019394922,
+            "Agr capi|Pot aure": 0.03934787986226673
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Fes hall|Tri alpi": 0.0366788629546422
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Pla mari|Pot aure": 0.013590654368052997
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Poa alpi|Tri alpi": 0.00876981139397787
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Tri alpi": 4.049092655174133e-05,
+            "Hel vers|Poa alpi": 0.036452652721734105,
+            "Poa alpi|Pot aure": 0.004128246848578454,
+            "Pot cran|Tri alpi": 0.006418970402470284
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Alo gera|Tri alpi": 0.0038172237841940814,
+            "Nar stri|Pot aure": 0.02834870163803464,
+            "Pla alpi|Poa alpi": 0.02834870163803464
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Fes nigr|Sco pyre": 0.010119713124227452
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Tri alpi": 0.0465083673527238
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Fes hall": 0.023647987168799296,
+            "Car semp|Tri alpi": 0.03591210207695737,
+            "Car semp|Fes nigr": 0.03591210207695737
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Alo gera|Tri alpi": 0.04996688838702315,
+            "Car semp|Geu mont": 0.04996688838702315
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Fes nigr|Pla alpi": 0.005934531884057113
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Agr rupe|Pot aure": 0.04441156316969606,
+            "Fes hall|Fes nigr": 0.04441156316969606
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Agr capi|Pla alpi": 0.03663798877365647
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Fes hall|Pot aure": 0.00959127641625319,
+            "Alo gera|Fes nigr": 0.00959127641625319
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Pot aure|Tri alpi": 0.008472681089316793
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pot aure": 0.02478232929992663,
+            "Nar stri|Pla alpi": 0.02478232929992663
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Geu mont|Poa alpi": 0.0009239087342748232
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pot aure": 0.03341831479057916
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Pla mari|Tri alpi": 0.012531278143068068
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pot aure": 0.0018148153742965128
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pot aure": 0.022309382578479905,
+            "Pot aure|Tri alpi": 0.017838228168024748
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Pla mari|Tri alpi": 0.013978438181686634
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Pot aure|Tri alpi": 0.031097415126802194,
+            "Pot aure|Pot gran": 0.03773870867836958,
+            "Hel vers|Pla alpi": 0.024168684597882045
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Alo gera|Hel vers": 0.04446294480222368,
+            "Car semp|Tri alpi": 0.0074285496081973506,
+            "Fes hall|Pla mari": 0.017682163370794667
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Pot aure": 0.04892368492751123
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Poa alpi|Pot aure": 0.015195704328451022,
+            "Fes nigr|Pot aure": 0.015195704328451022,
+            "Ave flex|Car semp": 0.015195704328451022
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Pot aure|Tri alpi": 0.007469091231584938
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Pot aure|Tri alpi": 0.010288787113437541,
+            "Ave flex|Tri alpi": 0.030384699705179853,
+            "Fes nigr|Pot gran": 0.010288787113437541,
+            "Pla alpi|Vio calc": 0.030384699705179853
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Car semp|Fes nigr": 0.035597823164741686,
+            "Fes nigr|Thy pule": 0.0351881336529266
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Alo gera|Tri alpi": 0.01487816344176428
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {
+            "Pla alpi|Vio calc": 0.02218362858569396
+        },
+        "over": {}
+    },
+    {
+        "under": {
+            "Pla mari|Pot aure": 0.02702775827783124
+        },
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    },
+    {
+        "under": {},
+        "over": {}
+    }
+]

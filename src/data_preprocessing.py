@@ -1,5 +1,6 @@
 from collections import defaultdict
 
+import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
@@ -82,3 +83,90 @@ def compute_DCi(df_group):
         DCi[sp] = (np.mean(values) + freq / n_reps) / 2
     return DCi
 
+def impact_abund_freq_DCi(df, treatment, origin):
+    """
+    Visualize what drives the DCi: relative abundance and frequency,
+    highlighting dominant species (top 10%) and alpine specialists.
+    """
+    df = df[df["Site_Treatment"] == treatment]
+    abund = defaultdict(list)
+    freqs, abunds = [], []
+    DCi = {}
+    replicates = list(df.groupby(["Year", "Subplot", "Replicate"]))
+    n_reps = len(replicates)
+    for _, rep_df in replicates:
+        rel_abund = rep_df["Species"].value_counts(normalize=True)
+        for sp, val in rel_abund.items():
+            abund[sp].append(val)
+    for sp, values in abund.items():
+        freq = sum(sp in rep_df["Species"].values for _, rep_df in replicates)
+        freqs.append(freq / n_reps)
+        abunds.append(np.mean(values))
+        DCi[sp] = (np.mean(values) + freq / n_reps) / 2
+
+    abunds, freqs = np.array(abunds), np.array(freqs)
+    species = np.array(list(DCi.keys()))
+    DCi_values = np.array([DCi[sp] for sp in species])
+
+    # Identifie the dominant species
+    threshold = np.percentile(DCi_values, 90)
+    dominant_indices = np.where(DCi_values >= threshold)[0]
+
+    # Indentifie the alpine specialist species
+    colors = np.array([origin[sp] for sp in species])
+    alpine_indices = np.where(colors == "#52cfebff")[0]
+
+    abund_bins = np.histogram_bin_edges(abunds, bins=20)
+    freq_bins = np.histogram_bin_edges(freqs, bins=20)
+
+    fig, axes = plt.subplots(1, 2, figsize=(10, 4))
+    axes[0].hist(abunds, bins=20, color="#d3d3d3", edgecolor="black")
+    axes[0].hist(
+        abunds[dominant_indices],
+        bins=abund_bins,
+        color="#d62728",
+        edgecolor="black",
+        alpha=0.6,
+        label="Dominant species",
+    )
+    axes[0].hist(
+        abunds[alpine_indices],
+        bins=abund_bins,
+        color="#52cfebff",
+        edgecolor="black",
+        alpha=0.6,
+        label="Alpine specialist species",
+    )
+    axes[0].set_title("Mean relative abundance")
+    axes[0].set_xlabel("Abundance")
+    axes[0].set_ylabel("Number of species")
+    axes[0].legend()
+
+    axes[1].hist(freqs, bins=20, color="#d3d3d3", edgecolor="black")
+    axes[1].hist(
+        freqs[dominant_indices],
+        bins=freq_bins,
+        color="#d62728",
+        edgecolor="black",
+        alpha=0.6,
+        label="Dominant species",
+    )
+    axes[1].hist(
+        freqs[alpine_indices],
+        bins=freq_bins,
+        color="#52cfebff",
+        edgecolor="black",
+        alpha=0.6,
+        label="Alpine specialist species",
+    )
+    axes[1].set_title("Frequency of occurence")
+    axes[1].set_xlabel("Frequency")
+    axes[1].set_ylabel("Number of species")
+    axes[1].legend()
+
+    plt.tight_layout()
+    plt.savefig(
+        f"save_result/impact_abund_freq_DCi_{treatment}.svg",
+        format="svg",
+        dpi=300,
+    )

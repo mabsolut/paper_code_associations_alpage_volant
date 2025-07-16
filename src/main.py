@@ -32,29 +32,29 @@ origin = compute_origin(df)
 
 # # === Temporal analysis of dominance structure shifts ===
 # # Figure 2: After five years of warming
-# dominance_shift(df, origin, 2021)
+dominance_shift(df, origin, 2021)
 
-# # Impact of the abundance and the frequence on the DCi
-# impact_abund_freq_DCi(df, "L_TP", origin)
-# impact_abund_freq_DCi(df, "G_CP", origin)
+# Impact of the abundance and the frequence on the DCi
+impact_abund_freq_DCi(df, "L_TP", origin)
+impact_abund_freq_DCi(df, "G_CP", origin)
 
-# # Supplemental figures 1 and 2: After 6 months and 2 years of warming, respectively
-# dominance_shift(df, origin, 2017)
-# dominance_shift(df, origin, 2018)
+# Supplemental figures 1 and 2: After 6 months and 2 years of warming, respectively
+dominance_shift(df, origin, 2017)
+dominance_shift(df, origin, 2018)
 
-# # === Network visualization of species associations ===
-# # Figure 3a, 3c, and SupFigure 3a for alpine, alpine warmed and subalpine communities
-# degrees, DCis = graph_creation(df, origin)
+# === Network visualization of species associations ===
+# Figure 3a, 3c, and SupFigure 3a for alpine, alpine warmed and subalpine communities
+degrees, DCis = graph_creation(df, origin)
 
-# # === Figure 3b, 3d, SupFigure 3b: correlation between DCi and node degree ===
-# degree_vs_DCi(degrees, DCis, origin)
+# === Figure 3b, 3d, SupFigure 3b: correlation between DCi and node degree ===
+degree_vs_DCi(degrees, DCis, origin)
 
-# # === Figure 4: visualization of the network built from alpine and all alpine warmed plots ===
-# graph_creation_common(df, degrees)
+# === Figure 4: visualization of the network built from alpine and all alpine warmed plots ===
+graph_creation_common(df, degrees)
 
-# # === Construction of Correspondance analysis (CA) and associated boxplots ===
-# # Figure 5: construction with all data
-# CA_creation(df, degrees, [2017, 2018, 2021])
+# === Construction of Correspondance analysis (CA) and associated boxplots ===
+# Figure 5: construction with all data
+CA_creation(df, degrees, [2017, 2018, 2021])
 
 # === Estimate alpha error rate by simulating randomized data ===
 if not precompute:

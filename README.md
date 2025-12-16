@@ -36,3 +36,13 @@ The script main.py allows all analyses to be run sequentially.
 Analyses were performed under Linux; multiprocessing is more reliable on this operating system.
 
 Some steps (notably the computation of all possible effect-size combinations) are computationally intensive and may take up to ~3 hours. A precomputed option is available to skip these long steps if needed.
+
+## 4. Reproducibility
+
+All figures and results presented in the manuscript can be reproduced using the scripts in this repository, starting from main.py.
+
+## 5. Software versions
+
+Analyses were conducted under:
+- Python 3.12.3
+- Linux (Ubuntu 24.04.2 LTS)

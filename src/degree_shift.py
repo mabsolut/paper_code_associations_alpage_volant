@@ -95,7 +95,7 @@ def degree_shift(df, degrees, origin, pseudo_degrees=False):
     if not pseudo_degrees:
         plt.tight_layout()
         plt.savefig(
-            f"save_result/Degree_shift.svg",
+            f"save_result/graphs/Degree_shift.svg",
             format="svg",
             dpi=300,
         )

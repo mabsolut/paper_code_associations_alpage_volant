@@ -1,6 +1,12 @@
 # Networks, but not composition or dominance, capture early community responses to warming in alpine grassland
 
-## Fisrt install
+This repository contains the data and code used to reproduce the analyses presented in the manuscript.
+
+---
+
+## 1. Installation
+
+All analyses were conducted using Python (≥3.9).
 
 - Create a virtual env in the root folder : `python -m venv venv`
 - Activate the environment : `source venv/bin/activate`
@@ -10,15 +16,19 @@
 ## Data 
 
 data/pinpoints.csv
-Each row represent the observetion of a species at a pinpoint
+Each row corresponds to the observation of a plant species at a single pinpoint.
 Column:
-- "subplotmaincode": code of the community regouping different following informations
-- "Species": species name
-- "comment": comment if nedded 
-- "pinpoint": number of the pinpoint (from 1 to 25) within on of the 4 subcommunities 
-- "number_of_obs": number of time that this species touche the pinpoint
-- "Year": year of survey
-- "Site_Treatment": treatement ("G_CP": alpine, "L_CP": subalpine, "L_TP": alpine warmed)
-- "Replicate": number of the replicate from 1 to 10
-- "Subplot": name of the subplot (there is only one subplot for the alpine and subalpine treatment: "0", and 4 subplots for the alpine warmed treatment: "A", "B", "C", "D"), each subplot is a community
-- "Subplot2": name of the subsubplot (there are 4 by community: "LL", "LR", "UL", "UR")
+- "subplotmaincode": Identifier of the community, grouping several spatial units
+- "Species": Species name
+- "comment": Optional comment 
+- "pinpoint": Pinpoint number (1–25) within one of the four subcommunities
+- "number_of_obs": Number of times the species touched the pinpoint
+- "Year": Year of the survey
+- "Site_Treatment": Experimental treatement ("G_CP": alpine, "L_CP": subalpine, "L_TP": alpine warmed)
+- "Replicate": Replicate number (1–10)
+- "Subplot": Subplot identifier (one for the alpine and subalpine treatments: "0"; and four for the alpine warmed treatment: "A", "B", "C", "D"), each subplot correspond to one community
+- "Subplot2": Sub-subplot identifier ("LL", "LR", "UL", "UR"), four per community
+
+## Code
+
+main.csv allows the computation of all the spripts at the same time. Please make sure to be on Linux as the multiproceding works better on it. You can choose the precompute possibility to passe the long step (3 hours) of combinaison of all the possibility of the effect size.

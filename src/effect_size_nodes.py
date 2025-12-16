@@ -170,7 +170,7 @@ def difference_impact_plots_nodes(result_alpine, result_warmed):
     plt.legend()
     plt.tight_layout()
     plt.savefig(
-        "save_result/effect_size/efecct_size_nodes_difference.svg",
+        "save_result/effect_size/effect_size_nodes_difference.svg",
         format="svg",
         dpi=300,
     )

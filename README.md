@@ -16,8 +16,11 @@ All analyses were conducted using Python (≥3.9).
 ## 2. Data 
 
 data/pinpoints.csv
+
 Each row corresponds to the observation of a plant species at a single pinpoint.
+
 Column:
+
 - "subplotmaincode": Identifier of the community, grouping several spatial units
 - "Species": Species name
 - "comment": Optional comment 

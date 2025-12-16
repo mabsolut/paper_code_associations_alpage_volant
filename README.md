@@ -13,7 +13,7 @@ All analyses were conducted using Python (≥3.9).
 - upgrade pip : `pip install --upgrade pip`
 - Install the requierments : `pip install -r requirements.txt`
 
-## Data 
+## 2. Data 
 
 data/pinpoints.csv
 Each row corresponds to the observation of a plant species at a single pinpoint.
@@ -29,6 +29,10 @@ Column:
 - "Subplot": Subplot identifier (one for the alpine and subalpine treatments: "0"; and four for the alpine warmed treatment: "A", "B", "C", "D"), each subplot correspond to one community
 - "Subplot2": Sub-subplot identifier ("LL", "LR", "UL", "UR"), four per community
 
-## Code
+## 3. Code
 
-main.csv allows the computation of all the spripts at the same time. Please make sure to be on Linux as the multiproceding works better on it. You can choose the precompute possibility to passe the long step (3 hours) of combinaison of all the possibility of the effect size.
+The script main.py allows all analyses to be run sequentially.
+
+Analyses were performed under Linux; multiprocessing is more reliable on this operating system.
+
+Some steps (notably the computation of all possible effect-size combinations) are computationally intensive and may take up to ~3 hours. A precomputed option is available to skip these long steps if needed.
